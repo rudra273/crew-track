@@ -1,7 +1,7 @@
 from django.db import models
 
 class Company(models.Model):
-    id = models.CharField(max_length=50, primary_key=True)  # Format: [131124] dd-mm-yy-hh-mm-ss-nn
+    id = models.CharField(max_length=10, primary_key=True, unique=True, editable=False)  # Format: [131124] dd-mm-yy-uuidchars
     name = models.CharField(max_length=255)
     owner = models.CharField(max_length=255)
     company_type = models.CharField(max_length=255)
