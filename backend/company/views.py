@@ -18,3 +18,10 @@ class CompanyCreateView(APIView):
 class CompanyListView(generics.ListAPIView):
     queryset = Company.objects.all()  # Retrieve all Company records
     serializer_class = CompanySerializer
+
+#GET by ID API
+class CompanyDetailView(generics.RetrieveAPIView):
+    queryset = Company.objects.all()
+    serializer_class = CompanySerializer
+
+    
