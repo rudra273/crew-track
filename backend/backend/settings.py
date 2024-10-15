@@ -124,10 +124,12 @@ DATABASES = {
     "ENGINE":'django.db.backends.postgresql',
     "HOST" : os.getenv("HOST"),
     "PORT" : os.getenv("PORT"),
-    "DB_NAME" : os.getenv("DB_NAME"),
+    "NAME" : os.getenv("DB_NAME"),
     "USER" : os.getenv("USER"),
     "PASSWORD" : os.getenv("PASSWORD"),
-    "SSL_MODE" : os.getenv("SSL_MODE")
+    "OPTIONS": {
+            "sslmode": os.getenv("SSL_MODE")
+        }
     }
 }
 
