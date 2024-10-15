@@ -30,6 +30,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "rest_framework",
+    "company",
 ]
 
 MIDDLEWARE = [
@@ -117,12 +119,20 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+DATABASES = {
+    "default":{
+    "ENGINE":'django.db.backends.postgresql',
+    "HOST" : os.getenv("HOST"),
+    "PORT" : os.getenv("PORT"),
+    "NAME" : os.getenv("DB_NAME"),
+    "USER" : os.getenv("USER"),
+    "PASSWORD" : os.getenv("PASSWORD"),
+    "OPTIONS": {
+            "sslmode": os.getenv("SSL_MODE")
+        }
+    }
+}
 
-HOST = os.getenv("HOST")
-PORT = os.getenv("PORT")
-DB_NAME = os.getenv("DB_NAME")
-USER = os.getenv("USER")
-PASSWORD = os.getenv("PASSWORD")
-SSL_MODE = os.getenv("SSL_MODE") 
+
 
 

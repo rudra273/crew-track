@@ -4,7 +4,7 @@
 
 - Backend: Django
 - Frontend: Next.js (React framework)
-- Database: MongoDB
+- Database: PostgreSQL
 
 ## 2. Project Structure
 
@@ -32,7 +32,7 @@ crewtrack/
     └── lib/
 ```
 
-## 3. Database Models (MongoDB Collections)
+## 3. Database Models (PostgreSQL Collections)
 
 ### 3.1 Company Collection
 
