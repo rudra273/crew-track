@@ -1,10 +1,10 @@
-# CrewTrack Project Architecture 
+# CrewTrack Project Architecture
 
 ## 1. Technology Stack
 
-- Backend: Django
+- Backend: Django DRF
 - Frontend: Next.js (React framework)
-- Database: PostgreSQL
+- Database: **PostgreSQL**
 
 ## 2. Project Structure
 
@@ -32,11 +32,11 @@ crewtrack/
     └── lib/
 ```
 
-## 3. Database Models (PostgreSQL Collections)
+## 3. Database Models (PostgreSQL Tables)
 
-### 3.1 Company Collection
+### 3.1 Company Table
 
-- _id: ObjectId (auto-generated)
+- id: Serial (auto-generated primary key)
 - company_id: String (custom format: dd-mm-yy-hh-mm-ss-nn)
 - name: String
 - owner: String
@@ -45,63 +45,64 @@ crewtrack/
 - since: Date
 - employee_range: String
 
-### 3.2 Department Collection
+### 3.2 Department Table
 
-- _id: ObjectId (auto-generated)
-- department_id: String
+- id: Serial (auto-generated primary key)
+- department_id: String [ devops, dev
 - name: String
-- company_id: String (reference to Company collection)
+- company_id: Integer (foreign key reference to `company` table)
 - base_salary: Decimal
-- overtime_rate: Decimal (per hour)
+- overtime_rate: Decimal (per hour) 
 - description: String
 
-### 3.3 Employee Collection
+### 3.3 Employee Table
 
-- _id: ObjectId (auto-generated)
+- id: Serial (auto-generated primary key)
 - employee_id: String (SHA hash)
 - first_name: String
 - last_name: String
 - phone: String
 - email: String
 - address: String
-- department_id: String (reference to Department collection)
+- department_id: Integer (foreign key reference to `department` table)
 - group: String
 - role: String
-- bank_account: Object
+- bank_account: JSONB (storing details like account number, IFSC code, and bank name)
   - account_number: String
   - ifsc_code: String
   - bank_name: String
 - upi_id: String
 - qr_code: String (generated from ID, first name, phone, and generated date)
-- company_id: String (reference to Company collection)
+- company_id: Integer (foreign key reference to `company` table)
 - joining_date: Date
 
-### 3.4 Attendance Collection
+### 3.4 Attendance Table
 
-- _id: ObjectId (auto-generated)
-- employee_id: String (reference to Employee collection)
+- id: Serial (auto-generated primary key)
+- employee_id: Integer (foreign key reference to `employee` table)
 - date: Date
 - status: String (enum: "full_day", "half_day", "absent")
 - overtime_hours: Decimal
 
-### 3.5 Payment Collection
+### 3.5 Payment Table
 
-- _id: ObjectId (auto-generated)
-- employee_id: String (reference to Employee collection)
+- id: Serial (auto-generated primary key)
+- employee_id: Integer (foreign key reference to `employee` table)
 - month: Date (stored as first day of the month)
-- year: Number
+- year: Integer
 - amount: Decimal
 - status: String (enum: "paid", "pending")
 - payment_date: Date
 - payment_method: String (e.g., "UPI", "Bank Transfer")
 - transaction_id: String
 
-### 3.6 Budget Collection
 
-- _id: ObjectId (auto-generated)
-- company_id: String (reference to Company collection)
+### 3.6 Budget Table
+
+- id: Serial (auto-generated primary key)
+- company_id: Integer (foreign key reference to `company` table)
 - month: Date (stored as first day of the month)
-- year: Number
+- year: Integer
 - total_budget: Decimal
 - total_spent: Decimal
 - remaining_budget: Decimal
@@ -169,12 +170,12 @@ crewtrack/
 ## 6. Salary and Overtime Calculation
 
 1. Base Salary:
-   - Stored in the Department collection
+   - Stored in the Department table
    - Applied to all employees in that department
 
 2. Overtime Calculation:
-   - Use the overtime_rate from the Department collection
-   - Calculate based on overtime_hours in the Attendance collection
+   - Use the overtime_rate from the Department table
+   - Calculate based on overtime_hours in the Attendance table
 
 3. Total Salary Calculation:
    - Base salary for the period (e.g., month)
@@ -212,7 +213,7 @@ crewtrack/
    - Integrate with popular UPI apps for seamless payments
 
 3. Payment Tracking:
-   - Update payment status in the Payment collection
+   - Update payment status in the Payment table
    - Provide payment history and pending payment reports
 
 ## 9. Dashboard
@@ -265,7 +266,7 @@ crewtrack/
 
 4. API Optimization:
    - Use pagination for large data sets
-   - Implement efficient querying and aggregation in MongoDB
+   - Implement efficient querying and aggregation in PostgreSQL
 
 ## 12. Scalability Considerations
 
@@ -276,7 +277,7 @@ crewtrack/
    - Implement load balancing for handling increased traffic
 
 3. Database Scaling:
-   - Plan for database sharding if data growth is expected to be significant
+   - Plan for database partitioning or sharding if data growth is significant
 
 4. Containerization:
    - Use Docker for containerization to ensure consistent environments
@@ -303,5 +304,4 @@ crewtrack/
 
 3. Data Backup:
    - Implement regular data backup and disaster recovery procedures
-
 
