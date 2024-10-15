@@ -4,6 +4,17 @@ from rest_framework.views import APIView
 from .serializers import CompanySerializer
 from .models import Company
 
+import logging
+
+logger = logging.getLogger(__name__)
+
+# Now you can use all log levels:
+logger.debug("This is a debug message")
+logger.info("This is an info message")
+logger.warning("This is a warning message")
+logger.error("This is an error message")
+logger.critical("This is a critical message")
+
 
 #POST API 
 class CompanyCreateView(APIView):
