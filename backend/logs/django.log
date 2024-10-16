@@ -1,0 +1,6 @@
+INFO 2024-10-16 06:59:55,340 autoreload 7 139944874765184 Watching for file changes with StatReloader
+DEBUG 2024-10-16 06:59:55,472 views 7 139944874765184 This is a debug message
+INFO 2024-10-16 06:59:55,475 views 7 139944874765184 This is an info message
+WARNING 2024-10-16 06:59:55,492 views 7 139944874765184 This is a warning message
+ERROR 2024-10-16 06:59:55,495 views 7 139944874765184 This is an error message
+CRITICAL 2024-10-16 06:59:55,499 views 7 139944874765184 This is a critical message
