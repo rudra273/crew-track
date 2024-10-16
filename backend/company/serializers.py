@@ -7,9 +7,6 @@ class CompanySerializer(serializers.ModelSerializer):
         model = Company
         fields = ['id', 'name', 'owner', 'company_type', 'description', 'since', 'employee_range','user']
         extra_kwargs = {
-            'id': {'read_only': True},  # Make ID read-only
+            'id': {'read_only': True}, 
         }
-
-
-
-    
+ 

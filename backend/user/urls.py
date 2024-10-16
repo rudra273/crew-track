@@ -1,15 +1,14 @@
 from django.urls import path
-from .views import (
-    UserRegisterView, 
-    UserDetailView,
-)
-from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.views import TokenRefreshView
+from .views import RegisterView, LoginView, LogoutView, UserProfileView
+
+app_name = 'users'
 
 urlpatterns = [
-    path('auth/register/', UserRegisterView.as_view(), name='register'),
-    path('auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'), 
-    # path('me/', UserDetailView.as_view(), name='user-detail'), fix this
-
-#  JWT Refresh token URLs 
-#   path('auth/refresh-token', TokenRefreshView.as_view(), name='token_refresh')
+    path('auth/register/', RegisterView.as_view(), name='auth_register'),
+    path('auth/login/', LoginView.as_view(), name='auth_login'),
+    path('auth/logout/', LogoutView.as_view(), name='auth_logout'),
+    path('auth/refresh-token/', TokenRefreshView.as_view(), name='auth_refresh_token'),
+    path('me/', UserProfileView.as_view(), name='auth_user_profile'),
 ]
+

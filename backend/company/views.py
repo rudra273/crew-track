@@ -7,11 +7,6 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Now you can use all log levels:
-# logger.debug("This is a debug message")
-# logger.error("This is an error message")
-# logger.critical("This is a critical message")
-
 
 #POST API 
 class CompanyCreateView(APIView):

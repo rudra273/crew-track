@@ -8,7 +8,7 @@ from .views import (
 urlpatterns = [
     
 #   Company URLs
-    path('list', CompanyListView.as_view(), name='company-list'),
+    path('list/', CompanyListView.as_view(), name='company-list'),
     path('create/', CompanyCreateView.as_view(), name='company-create'),
     path('get/<int:pk>/', CompanyDetailView.as_view(), name='company-detail'),
     

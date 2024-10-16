@@ -1,7 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import authApi from '@/lib/api/authApi';
 
 interface User {
@@ -31,21 +31,37 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
+  const pathname = usePathname();
 
   useEffect(() => {
     const loadUser = async () => {
-      try {
-        const userData = await authApi.getProfile();
-        setUser(userData);
-      } catch (error) {
-        console.error('Error loading user:', error);
-      } finally {
-        setLoading(false);
+      const token = localStorage.getItem('token');
+      if (token) {
+        try {
+          const userData = await authApi.getProfile();
+          setUser(userData);
+        } catch (error) {
+          console.error('Error loading user:', error);
+          localStorage.removeItem('token');
+          localStorage.removeItem('refreshToken');
+        }
       }
+      setLoading(false);
     };
 
     loadUser();
   }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      const publicPaths = ['/user/login', '/user/register'];
+      if (!user && !publicPaths.includes(pathname)) {
+        router.push('/user/login');
+      } else if (user && publicPaths.includes(pathname)) {
+        router.push('/company');
+      }
+    }
+  }, [user, loading, pathname, router]);
 
   const login = async (username: string, password: string) => {
     try {
@@ -76,4 +92,4 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   );
 };
 
-export default AuthProvider;
+export default AuthProvider; 

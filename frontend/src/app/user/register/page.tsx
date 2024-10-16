@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import authApi from '@/lib/api/authApi';
+import { useAuth } from '@/context/AuthProvider';
 
 export default function Register() {
   const [formData, setFormData] = useState({
@@ -13,6 +14,16 @@ export default function Register() {
   });
   const [error, setError] = useState('');
   const router = useRouter();
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (user) {
+    router.push('/company');
+    return null;
+  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

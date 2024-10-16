@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import authApi from '@/lib/api/authApi';
+import { useAuth } from '@/context/AuthProvider';
 
 export default function Login() {
   const [formData, setFormData] = useState({
@@ -11,6 +11,16 @@ export default function Login() {
   });
   const [error, setError] = useState('');
   const router = useRouter();
+  const { login, user, loading } = useAuth();
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (user) {
+    router.push('/company');
+    return null;
+  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -20,8 +30,7 @@ export default function Login() {
     e.preventDefault();
     setError('');
     try {
-      await authApi.login(formData);
-      router.push('/company');
+      await login(formData.username, formData.password);
     } catch (error: any) {
       setError(error.response?.data?.message || 'Invalid credentials');
     }
