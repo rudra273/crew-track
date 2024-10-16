@@ -1563,3 +1563,4 @@ INFO 2024-10-16 18:14:24,705 autoreload 1448 16712 Watching for file changes wit
 INFO 2024-10-16 18:15:09,581 autoreload 1448 16712 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
 INFO 2024-10-16 18:15:11,411 autoreload 11976 14868 Watching for file changes with StatReloader
 INFO 2024-10-16 18:31:36,622 autoreload 11976 14868 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 18:31:39,424 autoreload 11324 15060 Watching for file changes with StatReloader
