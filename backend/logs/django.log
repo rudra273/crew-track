@@ -1,0 +1,1476 @@
+DEBUG 2024-10-16 12:16:08,962 views 13532 11668 This is a debug message
+INFO 2024-10-16 12:16:08,962 views 13532 11668 This is an info message
+WARNING 2024-10-16 12:16:08,962 views 13532 11668 This is a warning message
+ERROR 2024-10-16 12:16:08,962 views 13532 11668 This is an error message
+CRITICAL 2024-10-16 12:16:08,962 views 13532 11668 This is a critical message
+DEBUG 2024-10-16 12:16:20,984 views 5036 9548 This is a debug message
+INFO 2024-10-16 12:16:20,984 views 5036 9548 This is an info message
+WARNING 2024-10-16 12:16:20,984 views 5036 9548 This is a warning message
+ERROR 2024-10-16 12:16:20,984 views 5036 9548 This is an error message
+CRITICAL 2024-10-16 12:16:20,984 views 5036 9548 This is a critical message
+INFO 2024-10-16 12:16:52,614 autoreload 17404 10608 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:16:53,076 views 17404 10608 This is a debug message
+INFO 2024-10-16 12:16:53,076 views 17404 10608 This is an info message
+WARNING 2024-10-16 12:16:53,076 views 17404 10608 This is a warning message
+ERROR 2024-10-16 12:16:53,076 views 17404 10608 This is an error message
+CRITICAL 2024-10-16 12:16:53,076 views 17404 10608 This is a critical message
+WARNING 2024-10-16 12:17:00,075 basehttp 17404 11820 "GET / HTTP/1.1" 404 2779
+WARNING 2024-10-16 12:17:00,159 basehttp 17404 11820 "GET /favicon.ico HTTP/1.1" 404 2830
+WARNING 2024-10-16 12:19:55,194 basehttp 17404 3616 "POST /register HTTP/1.1" 404 2822
+INFO 2024-10-16 12:21:48,968 autoreload 17404 10608 D:\django\crewtracker\crew-track\backend\backend\settings.py changed, reloading.
+INFO 2024-10-16 12:22:34,026 autoreload 12444 22172 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:22:34,594 views 12444 22172 This is a debug message
+INFO 2024-10-16 12:22:34,594 views 12444 22172 This is an info message
+WARNING 2024-10-16 12:22:34,594 views 12444 22172 This is a warning message
+ERROR 2024-10-16 12:22:34,594 views 12444 22172 This is an error message
+CRITICAL 2024-10-16 12:22:34,594 views 12444 22172 This is a critical message
+WARNING 2024-10-16 12:22:42,471 basehttp 12444 21168 "POST /register HTTP/1.1" 404 179
+WARNING 2024-10-16 12:23:36,356 basehttp 12444 3532 "POST /register HTTP/1.1" 404 179
+INFO 2024-10-16 12:23:49,411 autoreload 12444 22172 D:\django\crewtracker\crew-track\backend\backend\settings.py changed, reloading.
+INFO 2024-10-16 12:23:50,173 autoreload 21716 20576 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:23:50,663 views 21716 20576 This is a debug message
+INFO 2024-10-16 12:23:50,663 views 21716 20576 This is an info message
+WARNING 2024-10-16 12:23:50,663 views 21716 20576 This is a warning message
+ERROR 2024-10-16 12:23:50,663 views 21716 20576 This is an error message
+CRITICAL 2024-10-16 12:23:50,663 views 21716 20576 This is a critical message
+WARNING 2024-10-16 12:24:00,471 basehttp 21716 2432 "POST /register HTTP/1.1" 404 2822
+WARNING 2024-10-16 12:24:42,170 basehttp 21716 11452 "GET /register HTTP/1.1" 404 2821
+WARNING 2024-10-16 12:24:45,568 basehttp 21716 11452 "GET /register/ HTTP/1.1" 404 4314
+INFO 2024-10-16 12:25:14,556 autoreload 21716 20576 D:\django\crewtracker\crew-track\backend\backend\urls.py changed, reloading.
+INFO 2024-10-16 12:25:15,290 autoreload 2708 21048 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:25:15,794 views 2708 21048 This is a debug message
+INFO 2024-10-16 12:25:15,794 views 2708 21048 This is an info message
+WARNING 2024-10-16 12:25:15,794 views 2708 21048 This is a warning message
+ERROR 2024-10-16 12:25:15,794 views 2708 21048 This is an error message
+CRITICAL 2024-10-16 12:25:15,794 views 2708 21048 This is a critical message
+WARNING 2024-10-16 12:25:20,483 basehttp 2708 9600 "POST /register HTTP/1.1" 404 4306
+WARNING 2024-10-16 12:25:51,478 basehttp 2708 1496 "GET /register HTTP/1.1" 404 4305
+INFO 2024-10-16 12:26:57,641 autoreload 2708 21048 D:\django\crewtracker\crew-track\backend\backend\urls.py changed, reloading.
+INFO 2024-10-16 12:26:58,386 autoreload 17308 15488 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:26:58,900 views 17308 15488 This is a debug message
+INFO 2024-10-16 12:26:58,900 views 17308 15488 This is an info message
+WARNING 2024-10-16 12:26:58,900 views 17308 15488 This is a warning message
+ERROR 2024-10-16 12:26:58,900 views 17308 15488 This is an error message
+CRITICAL 2024-10-16 12:26:58,900 views 17308 15488 This is a critical message
+INFO 2024-10-16 12:27:05,499 autoreload 17308 15488 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:27:06,191 autoreload 19736 10072 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:27:06,715 views 19736 10072 This is a debug message
+INFO 2024-10-16 12:27:06,715 views 19736 10072 This is an info message
+WARNING 2024-10-16 12:27:06,715 views 19736 10072 This is a warning message
+ERROR 2024-10-16 12:27:06,715 views 19736 10072 This is an error message
+CRITICAL 2024-10-16 12:27:06,715 views 19736 10072 This is a critical message
+INFO 2024-10-16 12:27:08,087 autoreload 19736 10072 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:27:08,808 autoreload 6836 3796 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:27:09,295 views 6836 3796 This is a debug message
+INFO 2024-10-16 12:27:09,295 views 6836 3796 This is an info message
+WARNING 2024-10-16 12:27:09,295 views 6836 3796 This is a warning message
+ERROR 2024-10-16 12:27:09,295 views 6836 3796 This is an error message
+CRITICAL 2024-10-16 12:27:09,295 views 6836 3796 This is a critical message
+INFO 2024-10-16 12:27:16,925 autoreload 6836 3796 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:27:17,650 autoreload 20368 14968 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:27:18,131 views 20368 14968 This is a debug message
+INFO 2024-10-16 12:27:18,131 views 20368 14968 This is an info message
+WARNING 2024-10-16 12:27:18,131 views 20368 14968 This is a warning message
+ERROR 2024-10-16 12:27:18,131 views 20368 14968 This is an error message
+CRITICAL 2024-10-16 12:27:18,131 views 20368 14968 This is a critical message
+INFO 2024-10-16 12:27:19,482 autoreload 20368 14968 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:27:20,249 autoreload 10420 12244 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:27:20,762 views 10420 12244 This is a debug message
+INFO 2024-10-16 12:27:20,762 views 10420 12244 This is an info message
+WARNING 2024-10-16 12:27:20,762 views 10420 12244 This is a warning message
+ERROR 2024-10-16 12:27:20,762 views 10420 12244 This is an error message
+CRITICAL 2024-10-16 12:27:20,762 views 10420 12244 This is a critical message
+WARNING 2024-10-16 12:27:25,863 basehttp 10420 18224 "POST /register HTTP/1.1" 404 2356
+WARNING 2024-10-16 12:27:37,158 basehttp 10420 20040 "GET / HTTP/1.1" 404 2313
+WARNING 2024-10-16 12:27:48,075 basehttp 10420 1672 "GET /api/company/ HTTP/1.1" 404 3870
+INFO 2024-10-16 12:27:53,608 basehttp 10420 1672 "GET /api/company/register HTTP/1.1" 301 0
+WARNING 2024-10-16 12:27:53,796 basehttp 10420 12900 "GET /api/company/register/ HTTP/1.1" 405 10450
+INFO 2024-10-16 12:27:53,808 basehttp 10420 12900 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,808 basehttp 10420 14612 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,815 basehttp 10420 17804 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,816 basehttp 10420 18152 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,818 basehttp 10420 12900 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,820 basehttp 10420 14612 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,820 basehttp 10420 21064 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,821 basehttp 10420 17804 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,822 basehttp 10420 11280 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,822 basehttp 10420 18152 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,824 basehttp 10420 21064 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 12:27:53,824 basehttp 10420 17804 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+ERROR 2024-10-16 12:28:14,199 log 10420 18224 Internal Server Error: /api/company/register
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/company/register/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 12:28:14,203 basehttp 10420 18224 "POST /api/company/register HTTP/1.1" 500 73181
+INFO 2024-10-16 12:30:06,305 autoreload 10420 12244 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:30:07,001 autoreload 18108 22436 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:30:07,469 views 18108 22436 This is a debug message
+INFO 2024-10-16 12:30:07,469 views 18108 22436 This is an info message
+WARNING 2024-10-16 12:30:07,469 views 18108 22436 This is a warning message
+ERROR 2024-10-16 12:30:07,469 views 18108 22436 This is an error message
+CRITICAL 2024-10-16 12:30:07,469 views 18108 22436 This is a critical message
+INFO 2024-10-16 12:30:08,844 autoreload 18108 22436 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:30:09,557 autoreload 15800 17076 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:30:10,024 views 15800 17076 This is a debug message
+INFO 2024-10-16 12:30:10,024 views 15800 17076 This is an info message
+WARNING 2024-10-16 12:30:10,040 views 15800 17076 This is a warning message
+ERROR 2024-10-16 12:30:10,040 views 15800 17076 This is an error message
+CRITICAL 2024-10-16 12:30:10,040 views 15800 17076 This is a critical message
+WARNING 2024-10-16 12:30:18,630 basehttp 15800 6628 "POST /api/company/register/ HTTP/1.1" 400 112
+INFO 2024-10-16 12:30:39,232 basehttp 15800 6628 "POST /api/company/register/ HTTP/1.1" 201 40
+INFO 2024-10-16 12:31:28,871 autoreload 15800 17076 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:31:29,538 autoreload 12368 19876 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:31:30,106 views 12368 19876 This is a debug message
+INFO 2024-10-16 12:31:30,106 views 12368 19876 This is an info message
+WARNING 2024-10-16 12:31:30,106 views 12368 19876 This is a warning message
+ERROR 2024-10-16 12:31:30,106 views 12368 19876 This is an error message
+CRITICAL 2024-10-16 12:31:30,106 views 12368 19876 This is a critical message
+INFO 2024-10-16 12:31:33,544 autoreload 12368 19876 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:31:34,305 autoreload 19444 18180 Watching for file changes with StatReloader
+INFO 2024-10-16 12:31:37,054 autoreload 19444 18180 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:31:37,821 autoreload 21188 5036 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:31:38,337 views 21188 5036 This is a debug message
+INFO 2024-10-16 12:31:38,337 views 21188 5036 This is an info message
+WARNING 2024-10-16 12:31:38,337 views 21188 5036 This is a warning message
+ERROR 2024-10-16 12:31:38,337 views 21188 5036 This is an error message
+CRITICAL 2024-10-16 12:31:38,337 views 21188 5036 This is a critical message
+INFO 2024-10-16 12:31:39,687 autoreload 21188 5036 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:31:40,368 autoreload 14536 19560 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:31:40,845 views 14536 19560 This is a debug message
+INFO 2024-10-16 12:31:40,845 views 14536 19560 This is an info message
+WARNING 2024-10-16 12:31:40,846 views 14536 19560 This is a warning message
+ERROR 2024-10-16 12:31:40,846 views 14536 19560 This is an error message
+CRITICAL 2024-10-16 12:31:40,846 views 14536 19560 This is a critical message
+WARNING 2024-10-16 12:34:57,331 basehttp 14536 16776 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 12:37:02,442 autoreload 14536 19560 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:37:03,143 autoreload 13100 8440 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:37:03,744 views 13100 8440 This is a debug message
+INFO 2024-10-16 12:37:03,745 views 13100 8440 This is an info message
+WARNING 2024-10-16 12:37:03,745 views 13100 8440 This is a warning message
+ERROR 2024-10-16 12:37:03,745 views 13100 8440 This is an error message
+CRITICAL 2024-10-16 12:37:03,745 views 13100 8440 This is a critical message
+INFO 2024-10-16 12:37:50,878 autoreload 13100 8440 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:37:51,766 autoreload 12692 18604 Watching for file changes with StatReloader
+INFO 2024-10-16 12:38:01,867 autoreload 12692 18604 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:38:02,619 autoreload 9612 18536 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:38:03,073 views 9612 18536 This is a debug message
+INFO 2024-10-16 12:38:03,073 views 9612 18536 This is an info message
+WARNING 2024-10-16 12:38:03,073 views 9612 18536 This is a warning message
+ERROR 2024-10-16 12:38:03,073 views 9612 18536 This is an error message
+CRITICAL 2024-10-16 12:38:03,073 views 9612 18536 This is a critical message
+INFO 2024-10-16 12:40:03,041 autoreload 9612 18536 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:03,822 autoreload 6288 1672 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:04,337 views 6288 1672 This is a debug message
+INFO 2024-10-16 12:40:04,337 views 6288 1672 This is an info message
+WARNING 2024-10-16 12:40:04,337 views 6288 1672 This is a warning message
+ERROR 2024-10-16 12:40:04,337 views 6288 1672 This is an error message
+CRITICAL 2024-10-16 12:40:04,337 views 6288 1672 This is a critical message
+DEBUG 2024-10-16 12:40:04,337 views 6288 1888 This is a debug message
+INFO 2024-10-16 12:40:04,337 views 6288 1888 This is an info message
+WARNING 2024-10-16 12:40:04,337 views 6288 1888 This is a warning message
+ERROR 2024-10-16 12:40:04,337 views 6288 1888 This is an error message
+CRITICAL 2024-10-16 12:40:04,349 views 6288 1888 This is a critical message
+INFO 2024-10-16 12:40:07,634 autoreload 6288 1672 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:08,344 autoreload 7716 10732 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:08,862 views 7716 10732 This is a debug message
+INFO 2024-10-16 12:40:08,862 views 7716 10732 This is an info message
+WARNING 2024-10-16 12:40:08,862 views 7716 10732 This is a warning message
+ERROR 2024-10-16 12:40:08,863 views 7716 10732 This is an error message
+CRITICAL 2024-10-16 12:40:08,863 views 7716 10732 This is a critical message
+DEBUG 2024-10-16 12:40:08,865 views 7716 18264 This is a debug message
+INFO 2024-10-16 12:40:08,865 views 7716 18264 This is an info message
+WARNING 2024-10-16 12:40:08,866 views 7716 18264 This is a warning message
+ERROR 2024-10-16 12:40:08,866 views 7716 18264 This is an error message
+CRITICAL 2024-10-16 12:40:08,866 views 7716 18264 This is a critical message
+INFO 2024-10-16 12:40:13,264 autoreload 7716 10732 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:13,969 autoreload 10588 22172 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:14,521 views 10588 22172 This is a debug message
+INFO 2024-10-16 12:40:14,521 views 10588 22172 This is an info message
+WARNING 2024-10-16 12:40:14,521 views 10588 22172 This is a warning message
+ERROR 2024-10-16 12:40:14,521 views 10588 22172 This is an error message
+CRITICAL 2024-10-16 12:40:14,521 views 10588 22172 This is a critical message
+DEBUG 2024-10-16 12:40:14,528 views 10588 14776 This is a debug message
+INFO 2024-10-16 12:40:14,529 views 10588 14776 This is an info message
+WARNING 2024-10-16 12:40:14,529 views 10588 14776 This is a warning message
+ERROR 2024-10-16 12:40:14,530 views 10588 14776 This is an error message
+CRITICAL 2024-10-16 12:40:14,530 views 10588 14776 This is a critical message
+INFO 2024-10-16 12:40:17,806 autoreload 10588 22172 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:18,490 autoreload 17348 16508 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:18,988 views 17348 16508 This is a debug message
+INFO 2024-10-16 12:40:18,988 views 17348 16508 This is an info message
+WARNING 2024-10-16 12:40:18,988 views 17348 16508 This is a warning message
+ERROR 2024-10-16 12:40:18,988 views 17348 16508 This is an error message
+CRITICAL 2024-10-16 12:40:18,988 views 17348 16508 This is a critical message
+DEBUG 2024-10-16 12:40:18,988 views 17348 13016 This is a debug message
+INFO 2024-10-16 12:40:18,988 views 17348 13016 This is an info message
+WARNING 2024-10-16 12:40:18,988 views 17348 13016 This is a warning message
+ERROR 2024-10-16 12:40:18,988 views 17348 13016 This is an error message
+CRITICAL 2024-10-16 12:40:18,997 views 17348 13016 This is a critical message
+INFO 2024-10-16 12:40:20,205 autoreload 17348 16508 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:20,949 autoreload 21788 1856 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:21,451 views 21788 1856 This is a debug message
+INFO 2024-10-16 12:40:21,451 views 21788 1856 This is an info message
+WARNING 2024-10-16 12:40:21,451 views 21788 1856 This is a warning message
+ERROR 2024-10-16 12:40:21,451 views 21788 1856 This is an error message
+CRITICAL 2024-10-16 12:40:21,451 views 21788 1856 This is a critical message
+DEBUG 2024-10-16 12:40:21,451 views 21788 16956 This is a debug message
+INFO 2024-10-16 12:40:21,451 views 21788 16956 This is an info message
+WARNING 2024-10-16 12:40:21,451 views 21788 16956 This is a warning message
+ERROR 2024-10-16 12:40:21,451 views 21788 16956 This is an error message
+CRITICAL 2024-10-16 12:40:21,451 views 21788 16956 This is a critical message
+INFO 2024-10-16 12:40:24,736 autoreload 21788 1856 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:25,419 autoreload 17320 20344 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:25,920 views 17320 20344 This is a debug message
+INFO 2024-10-16 12:40:25,920 views 17320 20344 This is an info message
+WARNING 2024-10-16 12:40:25,920 views 17320 20344 This is a warning message
+ERROR 2024-10-16 12:40:25,920 views 17320 20344 This is an error message
+CRITICAL 2024-10-16 12:40:25,920 views 17320 20344 This is a critical message
+DEBUG 2024-10-16 12:40:25,920 views 17320 19392 This is a debug message
+INFO 2024-10-16 12:40:25,920 views 17320 19392 This is an info message
+WARNING 2024-10-16 12:40:25,920 views 17320 19392 This is a warning message
+ERROR 2024-10-16 12:40:25,930 views 17320 19392 This is an error message
+CRITICAL 2024-10-16 12:40:25,930 views 17320 19392 This is a critical message
+INFO 2024-10-16 12:40:44,829 autoreload 17320 20344 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:40:45,576 autoreload 13904 2216 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:40:46,048 views 13904 2216 This is a debug message
+INFO 2024-10-16 12:40:46,048 views 13904 2216 This is an info message
+WARNING 2024-10-16 12:40:46,048 views 13904 2216 This is a warning message
+ERROR 2024-10-16 12:40:46,048 views 13904 2216 This is an error message
+CRITICAL 2024-10-16 12:40:46,048 views 13904 2216 This is a critical message
+INFO 2024-10-16 12:40:59,942 autoreload 13904 2216 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:41:00,637 autoreload 13112 7100 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:41:01,121 views 13112 7100 This is a debug message
+INFO 2024-10-16 12:41:01,121 views 13112 7100 This is an info message
+WARNING 2024-10-16 12:41:01,121 views 13112 7100 This is a warning message
+ERROR 2024-10-16 12:41:01,121 views 13112 7100 This is an error message
+CRITICAL 2024-10-16 12:41:01,121 views 13112 7100 This is a critical message
+INFO 2024-10-16 12:42:18,573 autoreload 13112 7100 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:42:19,280 autoreload 2688 18824 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:42:19,780 views 2688 18824 This is a debug message
+WARNING 2024-10-16 12:42:19,780 views 2688 18824 This is a warning message
+ERROR 2024-10-16 12:42:19,780 views 2688 18824 This is an error message
+CRITICAL 2024-10-16 12:42:19,780 views 2688 18824 This is a critical message
+INFO 2024-10-16 12:42:27,367 autoreload 2688 18824 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:42:28,097 autoreload 7664 21304 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:42:28,615 views 7664 21304 This is a debug message
+WARNING 2024-10-16 12:42:28,615 views 7664 21304 This is a warning message
+ERROR 2024-10-16 12:42:28,615 views 7664 21304 This is an error message
+CRITICAL 2024-10-16 12:42:28,615 views 7664 21304 This is a critical message
+INFO 2024-10-16 12:42:39,396 autoreload 7664 21304 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:42:40,071 autoreload 4636 21920 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:42:40,617 views 4636 21920 This is a debug message
+WARNING 2024-10-16 12:42:40,618 views 4636 21920 This is a warning message
+ERROR 2024-10-16 12:42:40,618 views 4636 21920 This is an error message
+CRITICAL 2024-10-16 12:42:40,618 views 4636 21920 This is a critical message
+INFO 2024-10-16 12:42:50,332 autoreload 4636 21920 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:42:51,086 autoreload 19360 2580 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:42:51,647 views 19360 2580 This is a debug message
+ERROR 2024-10-16 12:42:51,647 views 19360 2580 This is an error message
+CRITICAL 2024-10-16 12:42:51,647 views 19360 2580 This is a critical message
+INFO 2024-10-16 12:42:54,051 autoreload 19360 2580 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:42:54,782 autoreload 14472 7208 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:42:55,282 views 14472 7208 This is a debug message
+ERROR 2024-10-16 12:42:55,282 views 14472 7208 This is an error message
+CRITICAL 2024-10-16 12:42:55,282 views 14472 7208 This is a critical message
+INFO 2024-10-16 12:42:59,764 autoreload 14472 7208 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:43:00,446 autoreload 8684 18096 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:43:00,949 views 8684 18096 This is a debug message
+ERROR 2024-10-16 12:43:00,949 views 8684 18096 This is an error message
+CRITICAL 2024-10-16 12:43:00,950 views 8684 18096 This is a critical message
+INFO 2024-10-16 12:43:11,676 autoreload 8684 18096 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:43:12,374 autoreload 1120 2324 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:43:12,873 views 1120 2324 This is a debug message
+ERROR 2024-10-16 12:43:12,873 views 1120 2324 This is an error message
+CRITICAL 2024-10-16 12:43:12,873 views 1120 2324 This is a critical message
+INFO 2024-10-16 12:43:26,772 autoreload 1120 2324 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:43:27,552 autoreload 1484 5764 Watching for file changes with StatReloader
+DEBUG 2024-10-16 12:43:28,057 views 1484 5764 This is a debug message
+ERROR 2024-10-16 12:43:28,057 views 1484 5764 This is an error message
+CRITICAL 2024-10-16 12:43:28,058 views 1484 5764 This is a critical message
+INFO 2024-10-16 12:43:42,975 autoreload 1484 5764 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:43:43,648 autoreload 16492 15984 Watching for file changes with StatReloader
+INFO 2024-10-16 12:43:45,526 autoreload 16492 15984 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:43:46,230 autoreload 21812 2848 Watching for file changes with StatReloader
+INFO 2024-10-16 12:44:07,967 autoreload 21812 2848 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:44:08,772 autoreload 7076 7428 Watching for file changes with StatReloader
+INFO 2024-10-16 12:44:12,799 autoreload 7076 7428 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:44:13,545 autoreload 16256 20312 Watching for file changes with StatReloader
+INFO 2024-10-16 12:44:18,547 autoreload 16256 20312 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:44:19,282 autoreload 20288 11816 Watching for file changes with StatReloader
+INFO 2024-10-16 12:44:32,622 autoreload 20288 11816 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 12:44:33,358 autoreload 13492 6716 Watching for file changes with StatReloader
+INFO 2024-10-16 12:45:03,396 autoreload 13492 6716 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:45:04,082 autoreload 10832 6444 Watching for file changes with StatReloader
+INFO 2024-10-16 12:45:07,814 autoreload 10832 6444 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 12:45:08,481 autoreload 14260 12004 Watching for file changes with StatReloader
+ERROR 2024-10-16 12:45:14,116 views 14260 4288 User Registration Failed
+WARNING 2024-10-16 12:45:14,116 basehttp 14260 4288 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 12:45:54,945 views 14260 4288 User Registered Successfully
+ERROR 2024-10-16 12:45:55,088 log 14260 4288 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django\crewtracker\crew-track\backend\company\views.py", line 28, in post
+    'refresh': str(refresh),
+               ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 95, in __str__
+    return self.get_token_backend().encode(self.payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 229, in get_token_backend
+    return self.token_backend
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 222, in token_backend
+    self._token_backend = import_string(
+                          ^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\state.py", line 1, in <module>
+    from .backends import TokenBackend
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\backends.py", line 6, in <module>
+    import jwt
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\__init__.py", line 1, in <module>
+    from .api_jwk import PyJWK, PyJWKSet
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\api_jwk.py", line 7, in <module>
+    from .algorithms import get_default_algorithms, has_crypto, requires_cryptography
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\algorithms.py", line 12, in <module>
+    from .utils import (
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\utils.py", line 7, in <module>
+    from cryptography.hazmat.primitives.asymmetric.ec import EllipticCurve
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\primitives\asymmetric\ec.py", line 11, in <module>
+    from cryptography.hazmat._oid import ObjectIdentifier
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\_oid.py", line 7, in <module>
+    from cryptography.hazmat.bindings._rust import (
+ImportError: DLL load failed while importing _rust: The specified module could not be found.
+ERROR 2024-10-16 12:45:55,104 basehttp 14260 4288 "POST /api/company/register/ HTTP/1.1" 500 235929
+INFO 2024-10-16 13:25:50,602 autoreload 8300 20688 Watching for file changes with StatReloader
+INFO 2024-10-16 13:26:36,125 autoreload 8300 20688 D:\django\crewtracker\crew-track\backend\backend\settings.py changed, reloading.
+INFO 2024-10-16 13:26:37,856 autoreload 14984 3740 Watching for file changes with StatReloader
+INFO 2024-10-16 13:26:40,805 autoreload 14984 3740 D:\django\crewtracker\crew-track\backend\backend\settings.py changed, reloading.
+INFO 2024-10-16 13:26:42,458 autoreload 18992 10540 Watching for file changes with StatReloader
+INFO 2024-10-16 13:26:55,786 autoreload 17336 2900 Watching for file changes with StatReloader
+ERROR 2024-10-16 13:27:05,120 views 17336 9336 User Registration Failed
+WARNING 2024-10-16 13:27:05,132 basehttp 17336 9336 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 13:27:34,585 autoreload 17336 2900 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:27:36,276 autoreload 21960 12240 Watching for file changes with StatReloader
+INFO 2024-10-16 13:50:07,031 autoreload 21960 12240 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:50:09,233 autoreload 8304 2612 Watching for file changes with StatReloader
+INFO 2024-10-16 13:50:12,818 autoreload 8304 2612 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:50:14,583 autoreload 21988 19340 Watching for file changes with StatReloader
+INFO 2024-10-16 13:50:50,923 autoreload 21988 19340 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:50:52,550 autoreload 1236 22256 Watching for file changes with StatReloader
+INFO 2024-10-16 13:50:55,380 autoreload 1236 22256 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:50:57,047 autoreload 11008 21264 Watching for file changes with StatReloader
+INFO 2024-10-16 13:51:08,813 autoreload 11008 21264 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:51:10,304 autoreload 6488 20248 Watching for file changes with StatReloader
+INFO 2024-10-16 13:51:12,615 autoreload 6488 20248 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:51:14,469 autoreload 16700 2144 Watching for file changes with StatReloader
+INFO 2024-10-16 13:51:23,527 autoreload 16700 2144 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 13:51:25,375 autoreload 11700 3484 Watching for file changes with StatReloader
+INFO 2024-10-16 13:51:46,956 autoreload 11700 3484 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:51:48,685 autoreload 18752 7492 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:14,173 autoreload 18752 7492 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:15,789 autoreload 22412 10232 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:19,259 autoreload 22412 10232 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:20,713 autoreload 9528 2392 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:25,778 autoreload 9528 2392 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:27,468 autoreload 7524 20128 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:29,669 autoreload 7524 20128 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:31,163 autoreload 8888 14248 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:33,550 autoreload 8888 14248 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:34,765 autoreload 15188 13920 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:38,350 autoreload 15188 13920 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:39,998 autoreload 20668 15568 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:42,300 autoreload 20668 15568 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:43,525 autoreload 14584 12312 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:45,745 autoreload 14584 12312 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:47,308 autoreload 13096 19056 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:51,029 autoreload 13096 19056 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:52:52,633 autoreload 11924 7532 Watching for file changes with StatReloader
+INFO 2024-10-16 13:52:58,947 autoreload 11924 7532 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:53:00,478 autoreload 4004 15764 Watching for file changes with StatReloader
+INFO 2024-10-16 13:53:05,473 autoreload 4004 15764 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:53:06,778 autoreload 21720 21536 Watching for file changes with StatReloader
+INFO 2024-10-16 13:53:09,508 autoreload 21720 21536 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:53:11,018 autoreload 11248 20492 Watching for file changes with StatReloader
+INFO 2024-10-16 13:53:17,292 autoreload 11248 20492 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:53:18,411 autoreload 20096 18012 Watching for file changes with StatReloader
+INFO 2024-10-16 13:53:21,432 autoreload 20096 18012 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:53:22,992 autoreload 6760 19612 Watching for file changes with StatReloader
+WARNING 2024-10-16 13:54:52,921 basehttp 6760 13244 "GET /api/cpmpanuy HTTP/1.1" 404 2367
+WARNING 2024-10-16 13:54:57,641 basehttp 6760 13244 "GET /api/cpmpany/ HTTP/1.1" 404 2367
+WARNING 2024-10-16 13:55:05,720 basehttp 6760 13244 "GET /api/company/ HTTP/1.1" 404 3604
+INFO 2024-10-16 13:55:26,628 basehttp 6760 13244 "GET /api/company/api/user/2 HTTP/1.1" 301 0
+WARNING 2024-10-16 13:55:26,715 basehttp 6760 15288 "GET /api/company/api/user/2/ HTTP/1.1" 401 9955
+INFO 2024-10-16 13:55:51,833 autoreload 6760 19612 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:55:53,395 autoreload 17748 1128 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:18,765 autoreload 17748 1128 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:20,322 autoreload 12444 13688 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:22,631 autoreload 12444 13688 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:24,305 autoreload 14572 14180 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:27,723 autoreload 14572 14180 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:29,126 autoreload 20264 8600 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:31,448 autoreload 20264 8600 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:33,206 autoreload 4004 10432 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:35,499 autoreload 4004 10432 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:37,206 autoreload 17620 10560 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:46,378 autoreload 17620 10560 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:47,852 autoreload 17732 20152 Watching for file changes with StatReloader
+INFO 2024-10-16 13:56:53,264 autoreload 17732 20152 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:56:54,552 autoreload 22484 3260 Watching for file changes with StatReloader
+INFO 2024-10-16 13:57:00,470 autoreload 22484 3260 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:57:01,879 autoreload 22496 18988 Watching for file changes with StatReloader
+INFO 2024-10-16 13:57:04,325 autoreload 22496 18988 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:57:05,996 autoreload 720 12888 Watching for file changes with StatReloader
+INFO 2024-10-16 13:57:11,180 autoreload 720 12888 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:57:12,863 autoreload 11256 15432 Watching for file changes with StatReloader
+INFO 2024-10-16 13:58:10,677 autoreload 11256 15432 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 13:58:12,533 autoreload 11572 11916 Watching for file changes with StatReloader
+ERROR 2024-10-16 13:59:34,570 log 11572 2568 Internal Server Error: /api/company/token
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\serializers.py", line 77, in validate
+    data["refresh"] = str(refresh)
+                      ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 95, in __str__
+    return self.get_token_backend().encode(self.payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 229, in get_token_backend
+    return self.token_backend
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 222, in token_backend
+    self._token_backend = import_string(
+                          ^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\state.py", line 1, in <module>
+    from .backends import TokenBackend
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\backends.py", line 6, in <module>
+    import jwt
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\__init__.py", line 1, in <module>
+    from .api_jwk import PyJWK, PyJWKSet
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\api_jwk.py", line 7, in <module>
+    from .algorithms import get_default_algorithms, has_crypto, requires_cryptography
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\algorithms.py", line 12, in <module>
+    from .utils import (
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\utils.py", line 7, in <module>
+    from cryptography.hazmat.primitives.asymmetric.ec import EllipticCurve
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\primitives\asymmetric\ec.py", line 11, in <module>
+    from cryptography.hazmat._oid import ObjectIdentifier
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\_oid.py", line 7, in <module>
+    from cryptography.hazmat.bindings._rust import (
+ImportError: DLL load failed while importing _rust: The specified module could not be found.
+ERROR 2024-10-16 13:59:34,611 basehttp 11572 2568 "POST /api/company/token HTTP/1.1" 500 249511
+WARNING 2024-10-16 14:00:39,186 basehttp 11572 7644 "GET /api/company/token HTTP/1.1" 405 12472
+ERROR 2024-10-16 14:01:10,632 log 11572 11700 Internal Server Error: /api/company/token
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\serializers.py", line 445, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\serializers.py", line 77, in validate
+    data["refresh"] = str(refresh)
+                      ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 95, in __str__
+    return self.get_token_backend().encode(self.payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 229, in get_token_backend
+    return self.token_backend
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\tokens.py", line 222, in token_backend
+    self._token_backend = import_string(
+                          ^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\state.py", line 1, in <module>
+    from .backends import TokenBackend
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework_simplejwt\backends.py", line 6, in <module>
+    import jwt
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\__init__.py", line 1, in <module>
+    from .api_jwk import PyJWK, PyJWKSet
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\api_jwk.py", line 7, in <module>
+    from .algorithms import get_default_algorithms, has_crypto, requires_cryptography
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\algorithms.py", line 12, in <module>
+    from .utils import (
+  File "C:\Users\User\anaconda3\Lib\site-packages\jwt\utils.py", line 7, in <module>
+    from cryptography.hazmat.primitives.asymmetric.ec import EllipticCurve
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\primitives\asymmetric\ec.py", line 11, in <module>
+    from cryptography.hazmat._oid import ObjectIdentifier
+  File "C:\Users\User\anaconda3\Lib\site-packages\cryptography\hazmat\_oid.py", line 7, in <module>
+    from cryptography.hazmat.bindings._rust import (
+ImportError: DLL load failed while importing _rust: The specified module could not be found.
+ERROR 2024-10-16 14:01:10,641 basehttp 11572 11700 "POST /api/company/token HTTP/1.1" 500 252889
+INFO 2024-10-16 14:05:17,331 autoreload 3296 19320 Watching for file changes with StatReloader
+INFO 2024-10-16 14:05:26,224 basehttp 3296 9812 "POST /api/company/token HTTP/1.1" 200 483
+WARNING 2024-10-16 14:06:13,660 basehttp 3296 12532 "GET /api/company/ HTTP/1.1" 404 3880
+INFO 2024-10-16 14:06:43,831 autoreload 3296 19320 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:06:45,616 autoreload 10344 22112 Watching for file changes with StatReloader
+INFO 2024-10-16 14:06:54,814 autoreload 10344 22112 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:06:56,593 autoreload 14240 10500 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:00,557 autoreload 14240 10500 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:02,115 autoreload 2140 10544 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:08,262 autoreload 2140 10544 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:09,867 autoreload 19800 16696 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:12,665 autoreload 19800 16696 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:14,022 autoreload 9320 15484 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:16,710 autoreload 9320 15484 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:18,349 autoreload 13232 3688 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:21,027 autoreload 13232 3688 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:22,631 autoreload 22204 15716 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:26,448 autoreload 22204 15716 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:28,048 autoreload 8976 21964 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:34,130 autoreload 8976 21964 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:35,379 autoreload 15756 11256 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:38,365 autoreload 15756 11256 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:39,758 autoreload 14584 7132 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:46,777 autoreload 14584 7132 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:48,238 autoreload 1756 1108 Watching for file changes with StatReloader
+INFO 2024-10-16 14:07:56,603 autoreload 1756 1108 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:07:58,325 autoreload 17944 6472 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:03,306 autoreload 17944 6472 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:04,902 autoreload 7940 19932 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:08,013 autoreload 7940 19932 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:09,483 autoreload 12496 19548 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:14,312 autoreload 12496 19548 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:15,738 autoreload 21536 13416 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:20,484 autoreload 21536 13416 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:22,034 autoreload 5520 13836 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:25,546 autoreload 5520 13836 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:26,894 autoreload 2420 8848 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:31,748 autoreload 2420 8848 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:33,315 autoreload 8752 8468 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:40,042 autoreload 8752 8468 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:41,808 autoreload 1384 15484 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:50,434 autoreload 1384 15484 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:52,278 autoreload 3260 15380 Watching for file changes with StatReloader
+INFO 2024-10-16 14:08:57,927 autoreload 3260 15380 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:08:59,581 autoreload 16204 19504 Watching for file changes with StatReloader
+INFO 2024-10-16 14:11:07,032 basehttp 16204 20456 "GET /api/company/user/delete HTTP/1.1" 301 0
+WARNING 2024-10-16 14:11:07,243 basehttp 16204 1908 "GET /api/company/user/delete/ HTTP/1.1" 401 183
+INFO 2024-10-16 14:11:19,477 basehttp 16204 1908 "GET /api/company/user/delete HTTP/1.1" 301 0
+WARNING 2024-10-16 14:11:20,305 basehttp 16204 11004 "GET /api/company/user/delete/ HTTP/1.1" 405 40
+ERROR 2024-10-16 14:11:27,232 log 16204 11004 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:11:27,240 basehttp 16204 11004 "POST /api/company/user/delete HTTP/1.1" 500 73607
+INFO 2024-10-16 14:11:42,321 basehttp 16204 11356 "GET /api/company/user/delete HTTP/1.1" 301 0
+WARNING 2024-10-16 14:11:42,385 basehttp 16204 4944 "GET /api/company/user/delete/ HTTP/1.1" 401 8618
+WARNING 2024-10-16 14:11:52,910 basehttp 16204 2108 "GET /api/company/user/delete/?eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI5MDc4NTI2LCJpYXQiOjE3MjkwNjc3MjYsImp0aSI6ImZmZTg5OTlmZTUzMzQ3NzM4YWU4NzI0NmExYTQ5ODI3IiwidXNlcl9pZCI6MX0.Nloagu4wM5I0xELIM-yV9zxB2Gk92w_8b7_eCeUbYEk HTTP/1.1" 401 8847
+INFO 2024-10-16 14:13:08,230 autoreload 16204 19504 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:13:09,755 autoreload 15376 21500 Watching for file changes with StatReloader
+INFO 2024-10-16 14:13:46,088 autoreload 15376 21500 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:13:47,735 autoreload 12608 18928 Watching for file changes with StatReloader
+INFO 2024-10-16 14:13:55,107 autoreload 12608 18928 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:13:56,986 autoreload 16056 11900 Watching for file changes with StatReloader
+ERROR 2024-10-16 14:14:06,959 log 16056 1236 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:14:06,966 basehttp 16056 1236 "POST /api/company/user/delete HTTP/1.1" 500 73228
+WARNING 2024-10-16 14:14:21,278 basehttp 16056 18040 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+ERROR 2024-10-16 14:14:37,762 log 16056 13376 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:14:37,762 basehttp 16056 13376 "DELETE /api/company/user/delete HTTP/1.1" 500 73258
+WARNING 2024-10-16 14:15:08,779 basehttp 16056 12956 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+WARNING 2024-10-16 14:15:13,076 basehttp 16056 12956 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+INFO 2024-10-16 14:16:08,526 autoreload 18804 6756 Watching for file changes with StatReloader
+WARNING 2024-10-16 14:16:19,204 basehttp 18804 10908 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+WARNING 2024-10-16 14:16:47,001 basehttp 18804 18736 "GET /api/company/ HTTP/1.1" 404 3877
+WARNING 2024-10-16 14:16:58,771 basehttp 18804 8736 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+WARNING 2024-10-16 14:17:06,219 basehttp 18804 19724 "DELETE /api/company/user/delete/ HTTP/1.1" 400 9827
+INFO 2024-10-16 14:17:12,443 basehttp 18804 19724 "OPTIONS /api/company/user/delete/ HTTP/1.1" 200 10122
+ERROR 2024-10-16 14:17:24,186 log 18804 3132 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:17:24,194 basehttp 18804 3132 "DELETE /api/company/user/delete HTTP/1.1" 500 73258
+ERROR 2024-10-16 14:17:47,350 log 18804 19036 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:17:47,358 basehttp 18804 19036 "DELETE /api/company/user/delete HTTP/1.1" 500 73258
+WARNING 2024-10-16 14:18:31,209 basehttp 18804 10632 "GET /api/company/ HTTP/1.1" 404 3877
+INFO 2024-10-16 14:18:43,647 basehttp 18804 18752 "GET /api/company/user/1 HTTP/1.1" 301 0
+WARNING 2024-10-16 14:18:44,518 basehttp 18804 18004 "GET /api/company/user/1/ HTTP/1.1" 404 45
+INFO 2024-10-16 14:18:50,413 basehttp 18804 18004 "GET /api/company/user/2 HTTP/1.1" 301 0
+WARNING 2024-10-16 14:18:51,111 basehttp 18804 19588 "GET /api/company/user/2/ HTTP/1.1" 404 45
+INFO 2024-10-16 14:19:00,454 basehttp 18804 19588 "GET /api/company/user/3 HTTP/1.1" 301 0
+WARNING 2024-10-16 14:19:01,305 basehttp 18804 22224 "GET /api/company/user/3/ HTTP/1.1" 404 45
+ERROR 2024-10-16 14:19:23,779 views 18804 22224 User Registration Failed
+WARNING 2024-10-16 14:19:23,783 basehttp 18804 22224 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 14:22:21,369 autoreload 18804 6756 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 14:22:22,952 autoreload 12696 8740 Watching for file changes with StatReloader
+ERROR 2024-10-16 14:22:31,224 views 12696 17840 User Registration Failed
+WARNING 2024-10-16 14:22:31,224 basehttp 12696 17840 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 14:30:22,537 autoreload 12696 8740 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 14:30:24,792 autoreload 12160 18956 Watching for file changes with StatReloader
+INFO 2024-10-16 14:31:34,594 views 12160 15572 User Registered Successfully
+INFO 2024-10-16 14:31:34,819 basehttp 12160 15572 "POST /api/company/register/ HTTP/1.1" 201 483
+INFO 2024-10-16 14:31:59,358 basehttp 12160 15572 "GET /api/company/user/3 HTTP/1.1" 301 0
+WARNING 2024-10-16 14:32:00,275 basehttp 12160 13916 "GET /api/company/user/3/ HTTP/1.1" 404 45
+INFO 2024-10-16 14:32:22,630 autoreload 12160 18956 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:24,397 autoreload 22152 3552 Watching for file changes with StatReloader
+INFO 2024-10-16 14:32:27,171 autoreload 22152 3552 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:28,304 autoreload 20128 11048 Watching for file changes with StatReloader
+INFO 2024-10-16 14:32:32,156 autoreload 20128 11048 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:33,672 autoreload 13872 7664 Watching for file changes with StatReloader
+INFO 2024-10-16 14:32:39,663 autoreload 13872 7664 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:41,077 autoreload 16976 2444 Watching for file changes with StatReloader
+INFO 2024-10-16 14:32:43,536 autoreload 16976 2444 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:44,933 autoreload 1908 21024 Watching for file changes with StatReloader
+INFO 2024-10-16 14:32:54,859 autoreload 1908 21024 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:32:56,687 autoreload 16264 21988 Watching for file changes with StatReloader
+INFO 2024-10-16 14:33:04,256 autoreload 16264 21988 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:33:05,644 autoreload 7160 21380 Watching for file changes with StatReloader
+INFO 2024-10-16 14:33:11,389 autoreload 7160 21380 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:33:12,910 autoreload 20684 18348 Watching for file changes with StatReloader
+WARNING 2024-10-16 14:33:35,377 basehttp 20684 10736 "POST /api/company/token HTTP/1.1" 404 3893
+ERROR 2024-10-16 14:33:55,685 views 20684 10736 User Registration Failed
+WARNING 2024-10-16 14:33:55,685 basehttp 20684 10736 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 14:34:05,589 views 20684 10736 User Registered Successfully
+ERROR 2024-10-16 14:34:05,702 log 20684 10736 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django\crewtracker\crew-track\backend\company\views.py", line 29, in post
+    "name":User.name,
+           ^^^^^^^^^
+AttributeError: type object 'User' has no attribute 'name'
+ERROR 2024-10-16 14:34:05,720 basehttp 20684 10736 "POST /api/company/register/ HTTP/1.1" 500 96621
+WARNING 2024-10-16 14:34:28,682 basehttp 20684 17680 "GET /api/company/register/ HTTP/1.1" 405 10450
+INFO 2024-10-16 14:35:02,504 views 20684 8228 User Registered Successfully
+ERROR 2024-10-16 14:35:02,567 log 20684 8228 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django\crewtracker\crew-track\backend\company\views.py", line 29, in post
+    "name":User.name,
+           ^^^^^^^^^
+AttributeError: type object 'User' has no attribute 'name'
+ERROR 2024-10-16 14:35:02,583 basehttp 20684 8228 "POST /api/company/register/ HTTP/1.1" 500 98910
+INFO 2024-10-16 14:35:45,351 autoreload 20684 18348 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:35:47,233 autoreload 11304 15312 Watching for file changes with StatReloader
+INFO 2024-10-16 14:35:50,186 autoreload 11304 15312 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:35:51,621 autoreload 3012 7004 Watching for file changes with StatReloader
+INFO 2024-10-16 14:35:55,569 autoreload 3012 7004 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:35:56,958 autoreload 21840 2056 Watching for file changes with StatReloader
+ERROR 2024-10-16 14:36:05,245 views 21840 16772 User Registration Failed
+WARNING 2024-10-16 14:36:05,245 basehttp 21840 16772 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 14:36:15,571 views 21840 16772 User Registered Successfully
+ERROR 2024-10-16 14:36:15,864 log 21840 16772 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DeferredAttribute is not JSON serializable
+ERROR 2024-10-16 14:36:15,888 basehttp 21840 16772 "POST /api/company/register/ HTTP/1.1" 500 108658
+WARNING 2024-10-16 14:36:33,075 basehttp 21840 16616 "GET /api/company/register/ HTTP/1.1" 405 10450
+INFO 2024-10-16 14:36:54,750 views 21840 1552 User Registered Successfully
+ERROR 2024-10-16 14:36:54,853 log 21840 1552 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DeferredAttribute is not JSON serializable
+ERROR 2024-10-16 14:36:54,868 basehttp 21840 1552 "POST /api/company/register/ HTTP/1.1" 500 153822
+INFO 2024-10-16 14:38:10,066 autoreload 21840 2056 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:38:11,796 autoreload 11052 20980 Watching for file changes with StatReloader
+INFO 2024-10-16 14:38:37,468 autoreload 11052 20980 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:38:39,088 autoreload 1072 7888 Watching for file changes with StatReloader
+INFO 2024-10-16 14:42:28,075 autoreload 7456 13772 Watching for file changes with StatReloader
+ERROR 2024-10-16 14:42:33,945 views 7456 3604 User Registration Failed
+WARNING 2024-10-16 14:42:33,956 basehttp 7456 3604 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 14:42:43,684 views 7456 3604 User Registered Successfully
+ERROR 2024-10-16 14:42:44,050 log 7456 3604 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR 2024-10-16 14:42:44,074 basehttp 7456 3604 "POST /api/company/register/ HTTP/1.1" 500 107389
+WARNING 2024-10-16 14:42:51,482 basehttp 7456 7136 "GET /api/company/register/ HTTP/1.1" 405 10450
+INFO 2024-10-16 14:43:15,381 views 7456 9808 User Registered Successfully
+ERROR 2024-10-16 14:43:15,476 log 7456 9808 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR 2024-10-16 14:43:15,492 basehttp 7456 9808 "POST /api/company/register/ HTTP/1.1" 500 151028
+INFO 2024-10-16 14:47:46,328 views 7456 3604 User Registered Successfully
+ERROR 2024-10-16 14:47:46,418 log 7456 3604 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR 2024-10-16 14:47:46,418 basehttp 7456 3604 "POST /api/company/register/ HTTP/1.1" 500 107398
+WARNING 2024-10-16 14:47:55,955 basehttp 7456 9792 "GET /api/company/register/ HTTP/1.1" 405 10450
+INFO 2024-10-16 14:48:07,652 views 7456 21500 User Registered Successfully
+ERROR 2024-10-16 14:48:07,735 log 7456 21500 Internal Server Error: /api/company/register/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 727, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 683, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR 2024-10-16 14:48:07,735 basehttp 7456 21500 "POST /api/company/register/ HTTP/1.1" 500 151067
+INFO 2024-10-16 14:49:41,389 autoreload 7456 13772 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:49:43,295 autoreload 12548 17604 Watching for file changes with StatReloader
+INFO 2024-10-16 14:49:49,653 autoreload 12548 17604 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:49:51,060 autoreload 22364 21412 Watching for file changes with StatReloader
+INFO 2024-10-16 14:49:55,769 autoreload 22364 21412 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:49:57,300 autoreload 13580 19628 Watching for file changes with StatReloader
+INFO 2024-10-16 14:50:01,203 autoreload 13580 19628 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:50:02,569 autoreload 9768 8668 Watching for file changes with StatReloader
+INFO 2024-10-16 14:50:17,552 views 9768 6628 User Registered Successfully
+INFO 2024-10-16 14:50:17,763 basehttp 9768 6628 "POST /api/company/register/ HTTP/1.1" 201 530
+INFO 2024-10-16 14:50:34,197 basehttp 9768 6628 "GET /api/company/user/12 HTTP/1.1" 301 0
+WARNING 2024-10-16 14:50:35,070 basehttp 9768 17824 "GET /api/company/user/12/ HTTP/1.1" 404 45
+INFO 2024-10-16 14:52:30,379 autoreload 9768 8668 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:52:32,364 autoreload 16888 1696 Watching for file changes with StatReloader
+INFO 2024-10-16 14:52:46,629 autoreload 16888 1696 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 14:52:48,218 autoreload 136 11124 Watching for file changes with StatReloader
+INFO 2024-10-16 14:53:41,902 autoreload 9844 7396 Watching for file changes with StatReloader
+INFO 2024-10-16 14:53:45,688 basehttp 9844 20784 "GET /api/company/user/12 HTTP/1.1" 301 0
+ERROR 2024-10-16 14:53:45,775 log 9844 9648 Internal Server Error: /api/company/user/12/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserDetailView.get() got an unexpected keyword argument 'pk'
+ERROR 2024-10-16 14:53:45,782 basehttp 9844 9648 "GET /api/company/user/12/ HTTP/1.1" 500 91487
+WARNING 2024-10-16 14:54:11,379 basehttp 9844 21680 "GET /api/company/ HTTP/1.1" 404 3877
+INFO 2024-10-16 14:54:17,807 basehttp 9844 9172 "GET /api/company/user/12 HTTP/1.1" 301 0
+ERROR 2024-10-16 14:54:17,894 log 9844 14748 Internal Server Error: /api/company/user/12/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: UserDetailView.get() got an unexpected keyword argument 'pk'
+ERROR 2024-10-16 14:54:17,902 basehttp 9844 14748 "GET /api/company/user/12/ HTTP/1.1" 500 93401
+WARNING 2024-10-16 14:55:09,173 basehttp 9844 21384 "GET /api/company/user?12 HTTP/1.1" 404 3892
+INFO 2024-10-16 14:56:00,753 autoreload 9844 7396 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:56:02,623 autoreload 13536 9624 Watching for file changes with StatReloader
+INFO 2024-10-16 14:56:09,582 basehttp 13536 16940 "GET /api/company/user/12 HTTP/1.1" 301 0
+INFO 2024-10-16 14:56:10,303 basehttp 13536 7548 "GET /api/company/user/12/ HTTP/1.1" 200 60
+INFO 2024-10-16 14:56:18,043 basehttp 13536 7548 "GET /api/company/user/1 HTTP/1.1" 301 0
+INFO 2024-10-16 14:56:18,817 basehttp 13536 3292 "GET /api/company/user/1/ HTTP/1.1" 200 75
+ERROR 2024-10-16 14:56:29,350 log 13536 3292 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 14:56:29,356 basehttp 13536 3292 "DELETE /api/company/user/delete HTTP/1.1" 500 73258
+INFO 2024-10-16 14:56:47,606 basehttp 13536 12752 "GET /api/company/user/12/ HTTP/1.1" 200 10192
+INFO 2024-10-16 14:56:47,649 basehttp 13536 20316 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,654 basehttp 13536 18804 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,655 basehttp 13536 6220 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,657 basehttp 13536 13528 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,658 basehttp 13536 12752 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,661 basehttp 13536 3820 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,666 basehttp 13536 20316 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,670 basehttp 13536 18804 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,673 basehttp 13536 6220 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,673 basehttp 13536 13528 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,673 basehttp 13536 12752 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:47,679 basehttp 13536 13528 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-16 14:56:54,289 basehttp 13536 13528 "GET /api/company/user/12/ HTTP/1.1" 200 10192
+INFO 2024-10-16 14:57:00,508 basehttp 13536 13528 "GET /api/company/user/3 HTTP/1.1" 301 0
+INFO 2024-10-16 14:57:01,354 basehttp 13536 10792 "GET /api/company/user/3/ HTTP/1.1" 200 10185
+INFO 2024-10-16 14:57:09,698 basehttp 13536 9768 "GET /api/company/user/4/ HTTP/1.1" 200 10185
+INFO 2024-10-16 14:57:17,165 basehttp 13536 22288 "GET /api/company/user/5 HTTP/1.1" 301 0
+INFO 2024-10-16 14:57:17,972 basehttp 13536 2140 "GET /api/company/user/5/ HTTP/1.1" 200 10185
+ERROR 2024-10-16 14:57:35,440 log 13536 9008 Internal Server Error: /api/company/user/delete/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2123, in get_prep_value
+    return int(value)
+           ^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'delete'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django\crewtracker\crew-track\backend\company\views.py", line 59, in get
+    user = User.objects.get(id=user_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\query.py", line 635, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\query.py", line 1476, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\query.py", line 1494, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\query.py", line 1501, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1609, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1641, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1555, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\sql\query.py", line 1385, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 30, in __init__
+    self.rhs = self.get_prep_lookup()
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 369, in get_prep_lookup
+    return super().get_prep_lookup()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\lookups.py", line 88, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\db\models\fields\__init__.py", line 2125, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'delete'.
+ERROR 2024-10-16 14:57:35,454 basehttp 13536 9008 "GET /api/company/user/delete/ HTTP/1.1" 500 164221
+INFO 2024-10-16 14:57:58,594 autoreload 13536 9624 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:58:00,491 autoreload 17460 588 Watching for file changes with StatReloader
+INFO 2024-10-16 14:58:05,248 autoreload 17460 588 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:58:06,532 autoreload 9560 16412 Watching for file changes with StatReloader
+WARNING 2024-10-16 14:58:15,668 basehttp 9560 12948 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+WARNING 2024-10-16 14:58:18,054 basehttp 9560 12948 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+INFO 2024-10-16 14:58:21,218 basehttp 9560 12948 "GET /api/company/user/3/ HTTP/1.1" 200 10185
+INFO 2024-10-16 14:58:30,060 basehttp 9560 12472 "GET /api/company/user/12/ HTTP/1.1" 200 10192
+INFO 2024-10-16 14:58:44,217 autoreload 9560 16412 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:58:45,961 autoreload 21608 17944 Watching for file changes with StatReloader
+INFO 2024-10-16 14:59:03,395 autoreload 21608 17944 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:59:04,836 autoreload 6368 3888 Watching for file changes with StatReloader
+INFO 2024-10-16 14:59:07,826 autoreload 6368 3888 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:59:09,392 autoreload 19728 19368 Watching for file changes with StatReloader
+INFO 2024-10-16 14:59:13,958 basehttp 19728 4940 "GET /api/company/user/12/ HTTP/1.1" 200 10192
+INFO 2024-10-16 14:59:19,724 basehttp 19728 4940 "GET /api/company/user/3/ HTTP/1.1" 200 10185
+WARNING 2024-10-16 14:59:26,393 basehttp 19728 4940 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+WARNING 2024-10-16 14:59:26,994 basehttp 19728 4940 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+INFO 2024-10-16 14:59:39,485 autoreload 19728 19368 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:59:41,128 autoreload 9348 12184 Watching for file changes with StatReloader
+INFO 2024-10-16 14:59:43,622 autoreload 9348 12184 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 14:59:44,986 autoreload 21056 9552 Watching for file changes with StatReloader
+INFO 2024-10-16 15:00:10,122 autoreload 8864 18584 Watching for file changes with StatReloader
+INFO 2024-10-16 15:00:14,836 autoreload 8864 18584 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 15:00:16,608 autoreload 20300 20200 Watching for file changes with StatReloader
+INFO 2024-10-16 15:00:23,425 autoreload 20300 20200 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 15:00:25,021 autoreload 6492 6188 Watching for file changes with StatReloader
+WARNING 2024-10-16 15:00:34,114 basehttp 6492 20740 "GET /api/company/user/delete/ HTTP/1.1" 405 9851
+INFO 2024-10-16 15:00:51,582 autoreload 6492 6188 D:\django\crewtracker\crew-track\backend\company\urls.py changed, reloading.
+INFO 2024-10-16 15:00:53,291 autoreload 17932 20428 Watching for file changes with StatReloader
+ERROR 2024-10-16 15:01:45,548 log 17932 1908 Internal Server Error: /api/company/user/delete
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via DELETE, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining DELETE data. Change your form to point to 127.0.0.1:8000/api/company/user/delete/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 15:01:45,551 basehttp 17932 1908 "DELETE /api/company/user/delete HTTP/1.1" 500 73258
+INFO 2024-10-16 15:10:18,903 autoreload 3804 9884 Watching for file changes with StatReloader
+INFO 2024-10-16 15:10:26,225 views 3804 9784 User Registered Successfully
+INFO 2024-10-16 15:10:26,427 basehttp 3804 9784 "POST /api/company/register/ HTTP/1.1" 201 532
+INFO 2024-10-16 15:15:29,443 autoreload 3804 9884 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 15:15:31,130 autoreload 20240 15312 Watching for file changes with StatReloader
+INFO 2024-10-16 15:16:00,848 autoreload 20240 15312 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 15:16:02,537 autoreload 21792 16008 Watching for file changes with StatReloader
+INFO 2024-10-16 15:16:06,091 autoreload 21792 16008 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 15:16:07,823 autoreload 15040 2056 Watching for file changes with StatReloader
+ERROR 2024-10-16 15:22:36,911 log 15040 7220 Internal Server Error: /api/company/create
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/company/create/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 15:22:36,923 basehttp 15040 7220 "POST /api/company/create HTTP/1.1" 500 73523
+WARNING 2024-10-16 15:22:55,420 basehttp 15040 3112 "GET /api/company/user/delete/ HTTP/1.1" 404 3641
+INFO 2024-10-16 15:22:59,430 basehttp 15040 3112 "GET /api/company/create HTTP/1.1" 301 0
+WARNING 2024-10-16 15:22:59,506 basehttp 15040 21064 "GET /api/company/create/ HTTP/1.1" 401 8615
+WARNING 2024-10-16 15:23:39,810 basehttp 15040 10496 "POST /api/company/create/ HTTP/1.1" 415 62
+ERROR 2024-10-16 15:24:37,614 log 15040 10496 Internal Server Error: /api/company/create/
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\request.py", line 421, in __getattr__
+    return getattr(_request, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'us'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\django\crewtracker\crew-track\backend\company\views.py", line 64, in post
+    serializer.save(user = request.user)
+                           ^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\rest_framework\request.py", line 423, in __getattr__
+    return self.__getattribute__(attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Request' object has no attribute 'us'
+ERROR 2024-10-16 15:24:37,622 basehttp 15040 10496 "POST /api/company/create/ HTTP/1.1" 500 104982
+INFO 2024-10-16 15:25:20,305 autoreload 15040 2056 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 15:25:22,080 autoreload 696 11792 Watching for file changes with StatReloader
+INFO 2024-10-16 15:25:25,613 basehttp 696 13524 "POST /api/company/create/ HTTP/1.1" 201 155
+INFO 2024-10-16 15:26:17,907 autoreload 696 11792 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 15:26:19,933 autoreload 2996 21188 Watching for file changes with StatReloader
+INFO 2024-10-16 15:26:30,318 basehttp 2996 13944 "POST /api/company/create/ HTTP/1.1" 201 165
+INFO 2024-10-16 16:12:48,352 autoreload 10756 21720 Watching for file changes with StatReloader
+INFO 2024-10-16 16:12:59,378 views 10756 19108 User Registered Successfully
+INFO 2024-10-16 16:12:59,634 basehttp 10756 19108 "POST /api/company/register/ HTTP/1.1" 201 543
+WARNING 2024-10-16 16:13:47,084 basehttp 10756 19108 "POST /api/company/create/ HTTP/1.1" 401 51
+INFO 2024-10-16 16:14:21,992 basehttp 10756 19108 "POST /api/company/create/ HTTP/1.1" 201 178
+WARNING 2024-10-16 16:14:39,567 basehttp 10756 19108 "GET /api/company/list HTTP/1.1" 401 58
+WARNING 2024-10-16 16:15:05,343 basehttp 10756 19108 "GET /api/company/list?Authorization=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI5MDg2MTc5LCJpYXQiOjE3MjkwNzUzNzksImp0aSI6IjZhM2EzOTAwMzQzYzQ1Mzg5NjRjZTc3MzAyM2M1MmJmIiwidXNlcl9pZCI6MX0.kcWMB4Ptxu-HPRfu_m-ebqlQ1VoiXHkpWieWOyZUCg4 HTTP/1.1" 401 58
+INFO 2024-10-16 16:16:24,944 basehttp 10756 19108 "GET /api/company/list HTTP/1.1" 200 180
+INFO 2024-10-16 16:16:43,536 basehttp 10756 19108 "GET /api/company/user/1 HTTP/1.1" 301 0
+INFO 2024-10-16 16:16:44,241 basehttp 10756 9632 "GET /api/company/user/1/ HTTP/1.1" 200 82
+INFO 2024-10-16 16:17:17,953 autoreload 10756 21720 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 16:17:19,504 autoreload 3032 14132 Watching for file changes with StatReloader
+INFO 2024-10-16 16:17:34,324 autoreload 3032 14132 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 16:17:36,203 autoreload 15708 6424 Watching for file changes with StatReloader
+INFO 2024-10-16 16:17:38,989 autoreload 15708 6424 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 16:17:40,757 autoreload 20344 21328 Watching for file changes with StatReloader
+INFO 2024-10-16 16:17:55,124 basehttp 20344 8680 "GET /api/company/user/1 HTTP/1.1" 301 0
+WARNING 2024-10-16 16:17:55,129 basehttp 20344 9536 "GET /api/company/user/1/ HTTP/1.1" 401 58
+INFO 2024-10-16 16:18:10,390 basehttp 20344 9536 "GET /api/company/user/1 HTTP/1.1" 301 0
+INFO 2024-10-16 16:18:11,548 basehttp 20344 13536 "GET /api/company/user/1/ HTTP/1.1" 200 82
+INFO 2024-10-16 16:30:54,940 views 20344 13536 User Registered Successfully
+INFO 2024-10-16 16:30:54,944 basehttp 20344 13536 "POST /api/company/register/ HTTP/1.1" 201 531
+ERROR 2024-10-16 16:40:29,255 views 20344 13536 User Registration Failed
+WARNING 2024-10-16 16:40:29,261 basehttp 20344 13536 "POST /api/company/register/ HTTP/1.1" 400 58
+INFO 2024-10-16 16:40:37,876 views 20344 13536 User Registered Successfully
+INFO 2024-10-16 16:40:37,876 basehttp 20344 13536 "POST /api/company/register/ HTTP/1.1" 201 529

@@ -9,8 +9,8 @@ class Company(models.Model):
     description = models.TextField(null=True, blank=True, max_length=255)  # Accepts null and can be left blank
     since = models.DateField(null=True, blank=True)  # Accepts null and can be left blank
     employee_range = models.CharField(max_length=50, null=True, blank=True)   # Example: "10-50", "50-100", etc.
-
-    # user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)  # Set to null if the user is deleted
+    
 
     def __str__(self):
         return self.name
