@@ -1,15 +1,25 @@
-
 // src/app/company/page.tsx
+
 'use client';
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import companyApi, { Company } from '@/lib/api/companyApi';
+import { useAuth } from '@/context/AuthProvider';
 
 export default function CompanyList() {
   const [companies, setCompanies] = useState<Company[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const { user, loading: authLoading } = useAuth();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (!authLoading && !user) {
+      router.push('/user/login');
+    }
+  }, [user, authLoading, router]);
 
   useEffect(() => {
     const fetchCompanies = async () => {
@@ -24,10 +34,12 @@ export default function CompanyList() {
       }
     };
 
-    fetchCompanies();
-  }, []);
+    if (user) {
+      fetchCompanies();
+    }
+  }, [user]);
 
-  if (loading) return <div className="flex justify-center items-center min-h-screen">Loading...</div>;
+  if (authLoading || loading) return <div className="flex justify-center items-center min-h-screen">Loading...</div>;
   if (error) return <div className="text-red-500 text-center">{error}</div>;
 
   return (
