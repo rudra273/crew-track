@@ -3201,3 +3201,469 @@ INFO 2024-10-16 16:35:32,986 basehttp 11 139850275608256 "GET /api/company/list/
 INFO 2024-10-16 16:35:35,472 basehttp 11 139850284000960 "GET /api/company/list/ HTTP/1.1" 200 154
 INFO 2024-10-16 16:37:16,698 autoreload 11 139850361461632 /app/company/serializers.py changed, reloading.
 INFO 2024-10-16 16:37:18,607 autoreload 15 139998491786112 Watching for file changes with StatReloader
+INFO 2024-10-17 01:42:48,970 autoreload 28696 29048 Watching for file changes with StatReloader
+WARNING 2024-10-17 01:44:01,234 basehttp 28696 40756 "GET /docs HTTP/1.1" 404 2495
+INFO 2024-10-17 01:45:13,246 basehttp 28696 17140 "OPTIONS /api/user/auth/login/ HTTP/1.1" 200 0
+INFO 2024-10-17 01:45:14,893 basehttp 28696 17140 "POST /api/user/auth/login/ HTTP/1.1" 200 560
+INFO 2024-10-17 01:45:14,905 basehttp 28696 17140 "OPTIONS /api/user/me/ HTTP/1.1" 200 0
+INFO 2024-10-17 01:45:15,166 basehttp 28696 17140 "GET /api/user/me/ HTTP/1.1" 200 69
+INFO 2024-10-17 01:45:17,622 basehttp 28696 17140 "OPTIONS /api/company/list/ HTTP/1.1" 200 0
+INFO 2024-10-17 01:45:17,622 basehttp 28696 26112 "OPTIONS /api/company/list/ HTTP/1.1" 200 0
+INFO 2024-10-17 01:45:17,955 views 28696 26112 Retrieving companies for user rudra
+ERROR 2024-10-17 01:45:18,889 log 28696 26112 Internal Server Error: /api/company/list/
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column companies.created_at does not exist
+LINE 1: ...mpanies"."employee_range", "companies"."user_id", "companies...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\pagination.py", line 222, in paginate_queryset
+    return list(self.page)
+           ^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 191, in __len__
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column companies.created_at does not exist
+LINE 1: ...mpanies"."employee_range", "companies"."user_id", "companies...
+                                                             ^
+
+ERROR 2024-10-17 01:45:18,909 basehttp 28696 26112 "GET /api/company/list/ HTTP/1.1" 500 172035
+INFO 2024-10-17 01:45:19,136 views 28696 17140 Retrieving companies for user rudra
+ERROR 2024-10-17 01:45:19,455 log 28696 17140 Internal Server Error: /api/company/list/
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column companies.created_at does not exist
+LINE 1: ...mpanies"."employee_range", "companies"."user_id", "companies...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\pagination.py", line 222, in paginate_queryset
+    return list(self.page)
+           ^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 191, in __len__
+    return len(self.object_list)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column companies.created_at does not exist
+LINE 1: ...mpanies"."employee_range", "companies"."user_id", "companies...
+                                                             ^
+
+ERROR 2024-10-17 01:45:19,465 basehttp 28696 17140 "GET /api/company/list/ HTTP/1.1" 500 172035
+INFO 2024-10-17 01:53:56,586 autoreload 8756 41488 Watching for file changes with StatReloader
+WARNING 2024-10-17 01:54:14,486 basehttp 8756 2596 "GET /api/user/me/ HTTP/1.1" 401 51
+INFO 2024-10-17 01:54:14,495 basehttp 8756 41316 "OPTIONS /api/user/auth/refresh-token/ HTTP/1.1" 200 0
+WARNING 2024-10-17 01:54:14,701 basehttp 8756 2596 "GET /api/user/me/ HTTP/1.1" 401 51
+WARNING 2024-10-17 01:54:14,925 basehttp 8756 2596 "POST /api/user/auth/refresh-token/ HTTP/1.1" 401 58
+INFO 2024-10-17 01:54:14,926 basehttp 8756 41316 "POST /api/user/auth/refresh-token/ HTTP/1.1" 200 483
+INFO 2024-10-17 01:54:15,224 basehttp 8756 41316 - Broken pipe from ('127.0.0.1', 63807)
+WARNING 2024-10-17 01:54:19,484 basehttp 8756 2596 "POST /api/user/auth/login/ HTTP/1.1" 401 63
+WARNING 2024-10-17 01:54:19,496 basehttp 8756 2596 "POST /api/user/auth/refresh-token/ HTTP/1.1" 400 43
+INFO 2024-10-17 01:55:03,728 basehttp 8756 9720 "OPTIONS /api/user/auth/register/ HTTP/1.1" 200 0
+INFO 2024-10-17 01:55:05,279 basehttp 8756 9720 "POST /api/user/auth/register/ HTTP/1.1" 201 55
+INFO 2024-10-17 01:55:08,593 basehttp 8756 9720 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-17 01:55:08,834 basehttp 8756 9720 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 01:55:09,431 views 8756 9720 Retrieving companies for user rudra
+ERROR 2024-10-17 01:55:09,861 log 8756 9720 Internal Server Error: /api/company/list/
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "companies" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "companies" WHERE "compani...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 89, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "companies" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "companies" WHERE "compani...
+                                          ^
+
+ERROR 2024-10-17 01:55:09,891 basehttp 8756 9720 "GET /api/company/list/ HTTP/1.1" 500 191460
+INFO 2024-10-17 01:55:10,176 views 8756 9720 Retrieving companies for user rudra
+ERROR 2024-10-17 01:55:10,449 log 8756 9720 Internal Server Error: /api/company/list/
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "companies" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "companies" WHERE "compani...
+                                          ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\mixins.py", line 40, in list
+    page = self.paginate_queryset(queryset)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\generics.py", line 175, in paginate_queryset
+    return self.paginator.paginate_queryset(queryset, self.request, view=self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\rest_framework\pagination.py", line 211, in paginate_queryset
+    self.page = paginator.page(page_number)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 89, in page
+    number = self.validate_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 70, in validate_number
+    if number > self.num_pages:
+                ^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 116, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+       ^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\core\paginator.py", line 110, in count
+    return c()
+           ^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\query.py", line 620, in count
+    return self.query.get_count(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\query.py", line 630, in get_count
+    return obj.get_aggregation(using, {"__count": Count("*")})["__count"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\query.py", line 616, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1574, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\crew\crew-track\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "companies" does not exist
+LINE 1: SELECT COUNT(*) AS "__count" FROM "companies" WHERE "compani...
+                                          ^
+
+ERROR 2024-10-17 01:55:10,461 basehttp 8756 9720 "GET /api/company/list/ HTTP/1.1" 500 191460
+INFO 2024-10-17 02:08:15,761 autoreload 13644 14152 Watching for file changes with StatReloader
+INFO 2024-10-17 02:08:36,954 basehttp 13644 11472 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:08:37,272 basehttp 13644 11472 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:08:37,304 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:08:37,342 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:08:37,560 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:08:37,591 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:08:37,805 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:08:37,836 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:03,604 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:03,823 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:08,243 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:08,462 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:08,840 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:09:08,873 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:09,097 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:09:09,138 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:18,482 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:18,731 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:19,008 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:09:19,038 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:19,379 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:09:19,418 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:19,709 views 13644 29444 Retrieving companies for user rudra
+INFO 2024-10-17 02:09:19,751 basehttp 13644 29444 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-17 02:09:27,864 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 02:09:28,101 basehttp 13644 29444 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:40:16,204 autoreload 11 140292233689984 Watching for file changes with StatReloader
+INFO 2024-10-16 20:40:28,872 basehttp 11 140292086822592 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-16 20:40:29,172 basehttp 11 140292086822592 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:40:36,073 views 11 140292086822592 Retrieving companies for user rudra
+INFO 2024-10-16 20:40:36,109 basehttp 11 140292086822592 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:40:40,387 views 11 140292086822592 Retrieving companies for user rudra
+INFO 2024-10-16 20:40:40,425 basehttp 11 140292086822592 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:44:17,182 basehttp 11 140292086822592 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:44:21,458 views 11 140292078429888 Retrieving companies for user rudra
+INFO 2024-10-16 20:44:21,496 basehttp 11 140292078429888 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:44:21,526 basehttp 11 140292086822592 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:45:01,723 autoreload 10 140092675095424 Watching for file changes with StatReloader
+INFO 2024-10-16 20:45:37,966 basehttp 10 140092597331648 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:45:42,198 basehttp 10 140092597331648 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:45:42,242 views 10 140092588938944 Retrieving companies for user rudra
+INFO 2024-10-16 20:45:42,287 basehttp 10 140092588938944 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:45:45,204 views 10 140092588938944 Retrieving companies for user rudra
+INFO 2024-10-16 20:45:45,236 basehttp 10 140092588938944 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:50:18,449 autoreload 10 140044127513472 Watching for file changes with StatReloader
+INFO 2024-10-16 20:50:38,394 basehttp 10 140044050360000 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-16 20:50:42,651 basehttp 10 140044050360000 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:50:49,934 views 10 140044050360000 Retrieving companies for user rudra
+INFO 2024-10-16 20:50:49,971 basehttp 10 140044050360000 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:50:54,233 views 10 140044050360000 Retrieving companies for user rudra
+INFO 2024-10-16 20:50:54,267 basehttp 10 140044050360000 "GET /api/company/list/ HTTP/1.1" 200 52
+INFO 2024-10-16 20:51:21,204 basehttp 10 140044050360000 "OPTIONS /api/company/create/ HTTP/1.1" 200 0
+INFO 2024-10-16 20:51:25,513 views 10 140044050360000 Company created: first by user rudra
+INFO 2024-10-16 20:51:25,520 basehttp 10 140044050360000 "POST /api/company/create/ HTTP/1.1" 201 250
+INFO 2024-10-16 20:51:30,156 views 10 140044050360000 Retrieving companies for user rudra
+INFO 2024-10-16 20:51:30,221 basehttp 10 140044050360000 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:51:32,677 views 10 140044050360000 Retrieving companies for user rudra
+INFO 2024-10-16 20:51:32,758 basehttp 10 140044050360000 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:52:07,306 basehttp 10 140044050360000 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:52:11,547 basehttp 10 140044050360000 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:52:11,580 views 10 140044041967296 Retrieving companies for user rudra
+INFO 2024-10-16 20:52:11,653 basehttp 10 140044041967296 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:52:14,666 views 10 140044041967296 Retrieving companies for user rudra
+INFO 2024-10-16 20:52:14,738 basehttp 10 140044041967296 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:57:41,900 autoreload 10 140067337571200 Watching for file changes with StatReloader
+INFO 2024-10-16 20:57:51,073 basehttp 10 140067259541184 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-16 20:57:51,437 basehttp 10 140067259541184 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-16 20:57:51,850 views 10 140067259541184 Retrieving companies for user rudra
+INFO 2024-10-16 20:57:51,935 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:57:53,775 views 10 140067259541184 Retrieving companies for user rudra
+INFO 2024-10-16 20:57:53,861 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 302
+INFO 2024-10-16 20:59:46,974 basehttp 10 140067259541184 "OPTIONS /api/company/388d5adf-5929-4dab-8593-3c1145b61a72/ HTTP/1.1" 200 0
+INFO 2024-10-16 20:59:46,983 basehttp 10 140067251148480 "OPTIONS /api/company/388d5adf-5929-4dab-8593-3c1145b61a72/ HTTP/1.1" 200 0
+INFO 2024-10-16 20:59:51,364 views 10 140067259541184 Accessing company: first by user rudra
+INFO 2024-10-16 20:59:51,374 basehttp 10 140067259541184 "GET /api/company/388d5adf-5929-4dab-8593-3c1145b61a72/ HTTP/1.1" 200 250
+INFO 2024-10-16 20:59:55,686 views 10 140067259541184 Accessing company: first by user rudra
+INFO 2024-10-16 20:59:55,693 basehttp 10 140067259541184 "GET /api/company/388d5adf-5929-4dab-8593-3c1145b61a72/ HTTP/1.1" 200 250
+INFO 2024-10-16 21:00:28,453 views 10 140067259541184 Accessing company: first by user rudra
+INFO 2024-10-16 21:00:28,535 views 10 140067259541184 Company updated: changed by user rudra
+INFO 2024-10-16 21:00:28,541 basehttp 10 140067259541184 "PUT /api/company/388d5adf-5929-4dab-8593-3c1145b61a72/ HTTP/1.1" 200 252
+INFO 2024-10-16 21:00:35,624 views 10 140067259541184 Retrieving companies for user rudra
+INFO 2024-10-16 21:00:35,691 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 304
+INFO 2024-10-16 21:00:39,953 views 10 140067259541184 Retrieving companies for user rudra
+INFO 2024-10-16 21:00:40,016 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 304
