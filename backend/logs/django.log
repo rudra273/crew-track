@@ -1549,3 +1549,17 @@ INFO 2024-10-16 10:29:46,865 basehttp 7 139858800535232 "GET /api/company/get/15
 INFO 2024-10-16 10:29:51,341 basehttp 7 139858800535232 "GET /api/company/get/151025/ HTTP/1.1" 200 217
 INFO 2024-10-16 10:29:55,586 basehttp 7 139858783749824 "GET /api/company/list HTTP/1.1" 200 1882
 INFO 2024-10-16 10:29:58,739 basehttp 7 139858800535232 "GET /api/company/list HTTP/1.1" 200 1882
+INFO 2024-10-16 17:39:54,679 autoreload 596 9460 Watching for file changes with StatReloader
+INFO 2024-10-16 17:41:03,469 autoreload 7724 9304 Watching for file changes with StatReloader
+WARNING 2024-10-16 17:43:15,393 basehttp 7724 9668 "GET /api/company/login/ HTTP/1.1" 405 40
+WARNING 2024-10-16 17:43:41,107 basehttp 7724 9668 "GET /api/company/login/ HTTP/1.1" 405 40
+WARNING 2024-10-16 17:44:39,111 basehttp 7724 9668 "POST /api/company/login/ HTTP/1.1" 401 63
+INFO 2024-10-16 17:45:19,404 basehttp 7724 9668 "POST /api/company/login/ HTTP/1.1" 200 483
+ERROR 2024-10-16 17:48:00,994 views 7724 9668 User Registration Failed
+WARNING 2024-10-16 17:48:00,995 basehttp 7724 9668 "POST /api/company/register/ HTTP/1.1" 400 121
+INFO 2024-10-16 17:48:51,379 basehttp 7724 9668 "POST /api/company/create/ HTTP/1.1" 201 146
+INFO 2024-10-16 18:14:21,711 autoreload 7724 9304 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 18:14:24,705 autoreload 1448 16712 Watching for file changes with StatReloader
+INFO 2024-10-16 18:15:09,581 autoreload 1448 16712 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 18:15:11,411 autoreload 11976 14868 Watching for file changes with StatReloader
+INFO 2024-10-16 18:31:36,622 autoreload 11976 14868 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
