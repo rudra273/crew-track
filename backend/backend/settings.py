@@ -34,12 +34,20 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    # cors
+    "corsheaders",
+
+    # rest framework
     "rest_framework",
     "rest_framework_simplejwt",
+
+    # api apps
     "company",
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware', # cors middleware added
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -68,17 +76,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "backend.wsgi.application"
-
-
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": "django.db.backends.sqlite3",
-#         "NAME": BASE_DIR / "db.sqlite3",
-#     }
-# }
 
 
 
@@ -143,6 +140,33 @@ DATABASES = {
 
 logs_dir = BASE_DIR / 'logs'
 os.makedirs(logs_dir, exist_ok=True)
+
+
+
+
+# cors configuration
+
+# Allow all origins (not recommended for production) 
+# CORS_ALLOW_ALL_ORIGINS = True
+
+CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS').split(',')
+
+# # Alternatively, allow only specific origins (more secure for production)
+# CORS_ALLOWED_ORIGINS = [
+#     'http://localhost:3000',  # Add your frontend URL here
+# ]
+
+
+# If you have multiple environments (like development and production):
+# CORS_ALLOWED_ORIGIN_REGEXES = [
+#     r'^https://\w+\.yourdomain\.com$',  # For matching multiple subdomains
+# ] 
+
+
+# If your frontend needs to send credentials (e.g., cookies, authentication headers)
+# CORS_ALLOW_CREDENTIALS = True
+
+
 
 # Logging configuration
 LOGGING = {
@@ -211,4 +235,5 @@ SIMPLE_JWT = {
     'ROTATE_REFRESH_TOKENS': True,
     'BLACKLIST_AFTER_ROTATION': True,
 }
+
 
