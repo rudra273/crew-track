@@ -73,3 +73,28 @@ INFO 2024-10-16 10:29:46,865 basehttp 7 139858800535232 "GET /api/company/get/15
 INFO 2024-10-16 10:29:51,341 basehttp 7 139858800535232 "GET /api/company/get/151025/ HTTP/1.1" 200 217
 INFO 2024-10-16 10:29:55,586 basehttp 7 139858783749824 "GET /api/company/list HTTP/1.1" 200 1882
 INFO 2024-10-16 10:29:58,739 basehttp 7 139858800535232 "GET /api/company/list HTTP/1.1" 200 1882
+INFO 2024-10-16 11:54:08,083 autoreload 7 139834592856960 Watching for file changes with StatReloader
+DEBUG 2024-10-16 11:54:08,276 views 7 139834592856960 This is a debug message
+INFO 2024-10-16 11:54:08,279 views 7 139834592856960 This is an info message
+WARNING 2024-10-16 11:54:08,281 views 7 139834592856960 This is a warning message
+ERROR 2024-10-16 11:54:08,285 views 7 139834592856960 This is an error message
+CRITICAL 2024-10-16 11:54:08,288 views 7 139834592856960 This is a critical message
+INFO 2024-10-16 11:55:21,179 autoreload 7 140240842959744 Watching for file changes with StatReloader
+DEBUG 2024-10-16 11:55:21,347 views 7 140240842959744 This is a debug message
+INFO 2024-10-16 11:55:21,350 views 7 140240842959744 This is an info message
+WARNING 2024-10-16 11:55:21,352 views 7 140240842959744 This is a warning message
+ERROR 2024-10-16 11:55:21,355 views 7 140240842959744 This is an error message
+CRITICAL 2024-10-16 11:55:21,359 views 7 140240842959744 This is a critical message
+INFO 2024-10-16 11:55:33,380 basehttp 7 140240767411904 "GET /api/company/list HTTP/1.1" 200 5552
+INFO 2024-10-16 11:55:33,464 basehttp 7 140240767411904 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,475 basehttp 7 140240767411904 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,478 basehttp 7 140240759019200 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,488 basehttp 7 140240767411904 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,499 basehttp 7 140240547215040 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,507 basehttp 7 140240538822336 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,518 basehttp 7 140240530429632 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,520 basehttp 7 140240522036928 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,527 basehttp 7 140240759019200 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,529 basehttp 7 140240767411904 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,534 basehttp 7 140240547215040 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 11:55:33,689 basehttp 7 140240547215040 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
