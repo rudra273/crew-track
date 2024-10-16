@@ -4,3 +4,72 @@ INFO 2024-10-16 06:59:55,475 views 7 139944874765184 This is an info message
 WARNING 2024-10-16 06:59:55,492 views 7 139944874765184 This is a warning message
 ERROR 2024-10-16 06:59:55,495 views 7 139944874765184 This is an error message
 CRITICAL 2024-10-16 06:59:55,499 views 7 139944874765184 This is a critical message
+INFO 2024-10-16 08:28:29,156 autoreload 7 140515875392384 Watching for file changes with StatReloader
+DEBUG 2024-10-16 08:28:29,302 views 7 140515875392384 This is a debug message
+INFO 2024-10-16 08:28:29,305 views 7 140515875392384 This is an info message
+WARNING 2024-10-16 08:28:29,308 views 7 140515875392384 This is a warning message
+ERROR 2024-10-16 08:28:29,313 views 7 140515875392384 This is an error message
+CRITICAL 2024-10-16 08:28:29,326 views 7 140515875392384 This is a critical message
+WARNING 2024-10-16 08:29:23,654 basehttp 7 140515790018240 "GET / HTTP/1.1" 404 2313
+WARNING 2024-10-16 08:29:23,980 basehttp 7 140515790018240 "GET /favicon.ico HTTP/1.1" 404 2364
+WARNING 2024-10-16 08:29:35,756 basehttp 7 140515790018240 "GET /api/company HTTP/1.1" 404 2364
+INFO 2024-10-16 08:29:52,341 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 8581
+INFO 2024-10-16 08:29:52,390 basehttp 7 140515798410944 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-16 08:29:52,400 basehttp 7 140515781625536 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-16 08:29:52,405 basehttp 7 140515790018240 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-16 08:29:52,416 basehttp 7 140515416729280 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-16 08:29:52,418 basehttp 7 140515425121984 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-16 08:29:52,426 basehttp 7 140515773232832 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-16 08:29:52,434 basehttp 7 140515798410944 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-16 08:29:52,444 basehttp 7 140515781625536 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-16 08:29:52,449 basehttp 7 140515790018240 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-16 08:29:52,474 basehttp 7 140515416729280 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-16 08:29:52,489 basehttp 7 140515425121984 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-10-16 08:29:52,509 basehttp 7 140515773232832 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-16 08:55:48,627 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:55:52,925 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:56:17,727 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:56:22,174 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:56:41,737 basehttp 7 140515790018240 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:56:46,051 basehttp 7 140515416729280 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:56:49,206 basehttp 7 140515416729280 "GET /api/company/list HTTP/1.1" 200 1570
+INFO 2024-10-16 08:59:20,470 autoreload 7 140515875392384 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 08:59:21,831 autoreload 17 140164872289152 Watching for file changes with StatReloader
+INFO 2024-10-16 08:59:51,820 autoreload 17 140164872289152 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 08:59:52,819 autoreload 19 140129190706048 Watching for file changes with StatReloader
+INFO 2024-10-16 09:01:01,741 autoreload 19 140129190706048 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 09:01:03,107 autoreload 21 140063645010816 Watching for file changes with StatReloader
+INFO 2024-10-16 09:01:22,827 autoreload 21 140063645010816 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 09:01:23,933 autoreload 23 140330065472384 Watching for file changes with StatReloader
+INFO 2024-10-16 09:04:42,130 autoreload 23 140330065472384 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 09:04:43,320 autoreload 25 140189215157120 Watching for file changes with StatReloader
+INFO 2024-10-16 09:13:37,717 autoreload 25 140189215157120 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 09:13:39,507 autoreload 27 140224678869888 Watching for file changes with StatReloader
+INFO 2024-10-16 09:14:08,604 autoreload 27 140224678869888 /app/backend/settings.py changed, reloading.
+INFO 2024-10-16 09:14:09,620 autoreload 29 140571093867392 Watching for file changes with StatReloader
+INFO 2024-10-16 09:15:53,275 autoreload 7 140139985156992 Watching for file changes with StatReloader
+INFO 2024-10-16 10:28:43,785 autoreload 7 139858877508480 Watching for file changes with StatReloader
+DEBUG 2024-10-16 10:28:43,934 views 7 139858877508480 This is a debug message
+INFO 2024-10-16 10:28:43,937 views 7 139858877508480 This is an info message
+WARNING 2024-10-16 10:28:43,940 views 7 139858877508480 This is a warning message
+ERROR 2024-10-16 10:28:43,941 views 7 139858877508480 This is an error message
+CRITICAL 2024-10-16 10:28:43,944 views 7 139858877508480 This is a critical message
+INFO 2024-10-16 10:28:53,191 basehttp 7 139858800535232 "GET /api/company/list HTTP/1.1" 200 9293
+INFO 2024-10-16 10:28:53,329 basehttp 7 139858792142528 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-10-16 10:28:53,332 basehttp 7 139858800535232 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-10-16 10:28:53,339 basehttp 7 139858783749824 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-10-16 10:28:53,460 basehttp 7 139858783749824 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-10-16 10:28:53,475 basehttp 7 139858800535232 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-10-16 10:28:53,488 basehttp 7 139858783749824 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-10-16 10:28:53,494 basehttp 7 139858792142528 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-10-16 10:28:53,526 basehttp 7 139858783749824 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-10-16 10:28:53,528 basehttp 7 139858792142528 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-10-16 10:28:53,558 basehttp 7 139858792142528 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-10-16 10:28:53,563 basehttp 7 139858783749824 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-10-16 10:28:53,666 basehttp 7 139858783749824 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-10-16 10:29:39,536 basehttp 7 139858783749824 "GET /api/company/list HTTP/1.1" 200 1882
+INFO 2024-10-16 10:29:43,812 basehttp 7 139858800535232 "GET /api/company/list HTTP/1.1" 200 1882
+INFO 2024-10-16 10:29:46,865 basehttp 7 139858800535232 "GET /api/company/get/151025/ HTTP/1.1" 200 217
+INFO 2024-10-16 10:29:51,341 basehttp 7 139858800535232 "GET /api/company/get/151025/ HTTP/1.1" 200 217
+INFO 2024-10-16 10:29:55,586 basehttp 7 139858783749824 "GET /api/company/list HTTP/1.1" 200 1882
+INFO 2024-10-16 10:29:58,739 basehttp 7 139858800535232 "GET /api/company/list HTTP/1.1" 200 1882
