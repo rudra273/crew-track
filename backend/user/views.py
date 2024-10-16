@@ -32,17 +32,10 @@ class UserRegisterView(APIView):
 #GET User
 class UserDetailView(APIView):
     permission_classes = [permissions.IsAuthenticated]
-    def get(self, request, user_id):
-        try:
-            user = User.objects.get(id=user_id)
-            # Serialize user data
-            return Response({
-                'user_id': user.id,
-                'username': user.username,
-                'email': user.email
-            }, status=status.HTTP_200_OK)
-        except User.DoesNotExist:
-            return Response(
-                {"detail": "No User matches the given query."},
-                status=status.HTTP_404_NOT_FOUND
-            )
+    def get(self, request):
+        user = request.user
+        return Response({
+            'user_id': user.id,
+            'username': user.username,
+            'email': user.email
+        }, status=status.HTTP_200_OK)

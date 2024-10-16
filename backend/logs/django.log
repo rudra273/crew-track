@@ -1578,3 +1578,75 @@ INFO 2024-10-16 18:55:15,786 autoreload 6940 9980 D:\django\crewtracker\crew-tra
 INFO 2024-10-16 18:55:17,789 autoreload 21064 10736 Watching for file changes with StatReloader
 INFO 2024-10-16 18:55:21,659 autoreload 21064 10736 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
 INFO 2024-10-16 18:55:23,430 autoreload 6360 19960 Watching for file changes with StatReloader
+INFO 2024-10-16 18:56:46,718 basehttp 6360 20428 "POST /api/user/register/ HTTP/1.1" 201 529
+INFO 2024-10-16 18:57:37,766 basehttp 6360 20428 "POST /api/company/create/ HTTP/1.1" 201 150
+WARNING 2024-10-16 19:08:47,091 basehttp 6360 1184 "GET /api/company/create/ HTTP/1.1" 401 8615
+INFO 2024-10-16 19:08:47,159 basehttp 6360 1184 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,161 basehttp 6360 2360 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,161 basehttp 6360 4180 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,178 basehttp 6360 1184 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,183 basehttp 6360 5428 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,186 basehttp 6360 2908 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,188 basehttp 6360 4180 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,193 basehttp 6360 1184 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,193 basehttp 6360 2360 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,193 basehttp 6360 14868 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,204 basehttp 6360 5428 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-10-16 19:08:47,209 basehttp 6360 14868 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2024-10-16 20:05:25,449 autoreload 17780 8424 Watching for file changes with StatReloader
+INFO 2024-10-16 20:05:30,253 basehttp 17780 9484 "GET /api/user/me HTTP/1.1" 301 0
+INFO 2024-10-16 20:05:31,145 basehttp 17780 16848 "GET /api/user/me/ HTTP/1.1" 200 58
+INFO 2024-10-16 20:05:56,871 basehttp 17780 16848 "GET /api/user/me HTTP/1.1" 301 0
+WARNING 2024-10-16 20:05:56,880 basehttp 17780 4432 "GET /api/user/me/ HTTP/1.1" 401 58
+INFO 2024-10-16 20:06:01,753 basehttp 17780 4432 "GET /api/user/me HTTP/1.1" 301 0
+INFO 2024-10-16 20:06:02,516 basehttp 17780 5948 "GET /api/user/me/ HTTP/1.1" 200 58
+ERROR 2024-10-16 20:07:03,232 log 17780 5948 Internal Server Error: /api/user/auth/login
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 20:07:03,240 basehttp 17780 5948 "POST /api/user/auth/login HTTP/1.1" 500 73822
+ERROR 2024-10-16 20:07:30,471 log 17780 15240 Internal Server Error: /api/user/auth/login
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 20:07:30,471 basehttp 17780 15240 "POST /api/user/auth/login HTTP/1.1" 500 73822
+ERROR 2024-10-16 20:07:47,360 log 17780 17128 Internal Server Error: /api/user/auth/login
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\utils\deprecation.py", line 131, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/api/user/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-10-16 20:07:47,363 basehttp 17780 17128 "POST /api/user/auth/login HTTP/1.1" 500 73822
+INFO 2024-10-16 20:08:12,159 basehttp 17780 15904 "POST /api/user/auth/login/ HTTP/1.1" 200 483
+WARNING 2024-10-16 20:08:41,535 basehttp 17780 15904 "POST /api/user/auth/login/ HTTP/1.1" 401 63
+INFO 2024-10-16 20:08:58,492 basehttp 17780 15904 "POST /api/user/auth/login/ HTTP/1.1" 200 483
+INFO 2024-10-16 20:11:00,524 basehttp 17780 15904 "GET /api/user/me HTTP/1.1" 301 0
+INFO 2024-10-16 20:11:01,306 basehttp 17780 15508 "GET /api/user/me/ HTTP/1.1" 200 82

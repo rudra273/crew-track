@@ -6,10 +6,10 @@ from .views import (
 from rest_framework_simplejwt.views import TokenObtainPairView
 
 urlpatterns = [
-    path('register/', UserRegisterView.as_view(), name='register'),
-    path('login/', TokenObtainPairView.as_view(), name='token_obtain_pair'), 
-    path('get/<int:user_id>/', UserDetailView.as_view(), name='user-detail'),
+    path('auth/register/', UserRegisterView.as_view(), name='register'),
+    path('auth/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'), 
+    path('me/', UserDetailView.as_view(), name='user-detail'),
 
 #  JWT Refresh token URLs 
-#   path('token/refresh', TokenRefreshView.as_view(), name='token_refresh')
+#   path('auth/refresh-token', TokenRefreshView.as_view(), name='token_refresh')
 ]
