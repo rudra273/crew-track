@@ -1564,3 +1564,17 @@ INFO 2024-10-16 18:15:09,581 autoreload 1448 16712 D:\django\crewtracker\crew-tr
 INFO 2024-10-16 18:15:11,411 autoreload 11976 14868 Watching for file changes with StatReloader
 INFO 2024-10-16 18:31:36,622 autoreload 11976 14868 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
 INFO 2024-10-16 18:31:39,424 autoreload 11324 15060 Watching for file changes with StatReloader
+INFO 2024-10-16 18:44:11,414 autoreload 11324 15060 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 18:44:13,259 autoreload 20512 4080 Watching for file changes with StatReloader
+DEBUG 2024-10-16 18:44:14,497 views 20512 4080 This is a debug message
+INFO 2024-10-16 18:44:14,497 views 20512 4080 This is an info message
+WARNING 2024-10-16 18:44:14,513 views 20512 4080 This is a warning message
+ERROR 2024-10-16 18:44:14,513 views 20512 4080 This is an error message
+CRITICAL 2024-10-16 18:44:14,513 views 20512 4080 This is a critical message
+INFO 2024-10-16 18:47:23,397 autoreload 20512 4080 D:\django\crewtracker\crew-track\backend\company\serializers.py changed, reloading.
+INFO 2024-10-16 18:47:25,462 autoreload 12308 12816 Watching for file changes with StatReloader
+INFO 2024-10-16 18:54:15,974 autoreload 6940 9980 Watching for file changes with StatReloader
+INFO 2024-10-16 18:55:15,786 autoreload 6940 9980 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 18:55:17,789 autoreload 21064 10736 Watching for file changes with StatReloader
+INFO 2024-10-16 18:55:21,659 autoreload 21064 10736 D:\django\crewtracker\crew-track\backend\company\views.py changed, reloading.
+INFO 2024-10-16 18:55:23,430 autoreload 6360 19960 Watching for file changes with StatReloader

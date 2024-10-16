@@ -1,10 +1,8 @@
 from rest_framework import status, generics, permissions
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .serializers import CompanySerializer, UserRegisterSerializer
+from .serializers import CompanySerializer
 from .models import Company
-from django.contrib.auth.models import User
-from rest_framework_simplejwt.tokens import RefreshToken
 import logging
 
 logger = logging.getLogger(__name__)
