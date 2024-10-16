@@ -1,7 +1,10 @@
+import logging.config
 from pathlib import Path
-
+from datetime import timedelta
 import os
+import logging
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -37,6 +40,7 @@ INSTALLED_APPS = [
 
     # rest framework
     "rest_framework",
+    "rest_framework_simplejwt",
 
     # api apps
     "company",
@@ -134,6 +138,8 @@ DATABASES = {
     }
 }
 
+logs_dir = BASE_DIR / 'logs'
+os.makedirs(logs_dir, exist_ok=True)
 
 
 
@@ -185,7 +191,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': BASE_DIR / 'logs' / 'django.log',
+            'filename': logs_dir / 'django.log',
             'maxBytes': 1024 * 1024 * 5,  # 5 MB
             'backupCount': 5,
             'formatter': 'verbose',
@@ -211,5 +217,23 @@ LOGGING = {
     },
 }
 
+try:
+    logging.config.dictConfig(LOGGING)
+except Exception as e:
+    print(f"Logging configuration failed: {e}")
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(hours=3),  # Adjust as needed
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),  # Adjust as needed
+    'ROTATE_REFRESH_TOKENS': True,
+    'BLACKLIST_AFTER_ROTATION': True,
+}
 
 
