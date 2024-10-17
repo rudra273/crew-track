@@ -148,15 +148,7 @@ os.makedirs(logs_dir, exist_ok=True)
 
 # cors configuration
 
-# Allow all origins (not recommended for production) 
-# CORS_ALLOW_ALL_ORIGINS = True
-
 CORS_ALLOWED_ORIGINS = os.getenv('CORS_ALLOWED_ORIGINS').split(',')
-
-# # Alternatively, allow only specific origins (more secure for production)
-# CORS_ALLOWED_ORIGINS = [
-#     'http://localhost:3000',  # Add your frontend URL here
-# ]
 
 
 # If you have multiple environments (like development and production):
@@ -235,8 +227,7 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
     ],
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10,
+    
 }
 
 SIMPLE_JWT = {

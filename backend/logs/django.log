@@ -3667,3 +3667,35 @@ INFO 2024-10-16 21:00:35,624 views 10 140067259541184 Retrieving companies for u
 INFO 2024-10-16 21:00:35,691 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 304
 INFO 2024-10-16 21:00:39,953 views 10 140067259541184 Retrieving companies for user rudra
 INFO 2024-10-16 21:00:40,016 basehttp 10 140067259541184 "GET /api/company/list/ HTTP/1.1" 200 304
+INFO 2024-10-17 18:58:56,016 autoreload 10 140473789098880 Watching for file changes with StatReloader
+INFO 2024-10-17 18:59:05,856 basehttp 10 140473711716032 "OPTIONS /api/user/auth/login/ HTTP/1.1" 200 0
+INFO 2024-10-17 18:59:07,462 basehttp 10 140473711716032 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-17 18:59:07,529 basehttp 10 140473711716032 "OPTIONS /api/user/me/ HTTP/1.1" 200 0
+INFO 2024-10-17 18:59:07,865 basehttp 10 140473711716032 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 18:59:09,641 basehttp 10 140473711716032 "OPTIONS /api/company/list/ HTTP/1.1" 200 0
+INFO 2024-10-17 18:59:09,651 basehttp 10 140473711716032 "OPTIONS /api/company/list/ HTTP/1.1" 200 0
+INFO 2024-10-17 18:59:09,896 views 10 140473703323328 Retrieving companies for user rudra
+INFO 2024-10-17 18:59:09,965 basehttp 10 140473703323328 "GET /api/company/list/ HTTP/1.1" 200 304
+INFO 2024-10-17 18:59:10,234 views 10 140473703323328 Retrieving companies for user rudra
+INFO 2024-10-17 18:59:10,305 basehttp 10 140473703323328 "GET /api/company/list/ HTTP/1.1" 200 304
+INFO 2024-10-17 18:59:50,720 autoreload 10 140473789098880 /app/backend/settings.py changed, reloading.
+INFO 2024-10-17 18:59:52,465 autoreload 14 140003635157888 Watching for file changes with StatReloader
+INFO 2024-10-17 19:00:04,735 basehttp 14 140003557500608 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 19:00:09,023 views 14 140003549107904 Retrieving companies for user rudra
+INFO 2024-10-17 19:00:09,039 basehttp 14 140003557500608 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 19:00:09,062 basehttp 14 140003549107904 "GET /api/company/list/ HTTP/1.1" 200 254
+INFO 2024-10-17 19:00:13,365 views 14 140003549107904 Retrieving companies for user rudra
+INFO 2024-10-17 19:00:13,404 basehttp 14 140003549107904 "GET /api/company/list/ HTTP/1.1" 200 254
+INFO 2024-10-17 19:02:36,558 basehttp 14 140003557500608 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 19:02:40,913 views 14 140003549107904 Retrieving companies for user rudra
+INFO 2024-10-17 19:02:40,915 basehttp 14 140003557500608 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 19:02:41,274 basehttp 14 140003549107904 "GET /api/company/list/ HTTP/1.1" 200 254
+INFO 2024-10-17 19:02:44,241 views 14 140003549107904 Retrieving companies for user rudra
+INFO 2024-10-17 19:02:44,269 basehttp 14 140003549107904 "GET /api/company/list/ HTTP/1.1" 200 254
+INFO 2024-10-17 19:03:20,211 autoreload 10 140569545747328 Watching for file changes with StatReloader
+INFO 2024-10-17 19:03:30,216 basehttp 10 140569468724928 "POST /api/user/auth/login/ HTTP/1.1" 200 553
+INFO 2024-10-17 19:03:32,784 basehttp 10 140569468724928 "GET /api/user/me/ HTTP/1.1" 200 62
+INFO 2024-10-17 19:03:37,161 views 10 140569468724928 Retrieving companies for user rudra
+INFO 2024-10-17 19:03:37,197 basehttp 10 140569468724928 "GET /api/company/list/ HTTP/1.1" 200 254
+INFO 2024-10-17 19:03:41,821 views 10 140569468724928 Retrieving companies for user rudra
+INFO 2024-10-17 19:03:42,141 basehttp 10 140569468724928 "GET /api/company/list/ HTTP/1.1" 200 254
