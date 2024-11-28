@@ -1,4 +1,4 @@
-# CrewTrack Project Architecture
+# CrewTrack
 
 ## 1. Technology Stack
 
